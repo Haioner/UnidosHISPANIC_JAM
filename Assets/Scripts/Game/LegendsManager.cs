@@ -153,21 +153,22 @@ public class LegendsManager : MonoBehaviour
 
     private void UpdateLegendsCount()
     {
-        legendsCountText.text = "Legends: " + currentLegendsStats.Count.ToString();
+        int maxLegends = bookCount * 10;
+        legendsCountText.text = currentLegendsStats.Count.ToString() + "/" + maxLegends.ToString();
     }
 
     private void UpdatePopulationCount()
     {
-        populationText.text = "World Population: " + population.ToString("F0");
+        populationText.text = NumberConverter.ConvertNumberToString(population);
     }
 
     private void UpdateBookCount()
     {
-        bookCountText.text = "Book Count: " + bookCount.ToString();
+        bookCountText.text = bookCount.ToString();
     }
 
     private void UpdateSoulsCount()
     {
-        soulsText.text = "Souls: " + souls.ToString();
+        soulsText.text = souls.ToString();
     }
 }

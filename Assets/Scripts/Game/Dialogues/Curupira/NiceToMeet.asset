@@ -18,8 +18,7 @@ MonoBehaviour:
   - MIIIMMMM DEEEE
   - VAI ME NEGA UM PRATO DE COMIDA?
   - EIN? VAI?
-  EarnSouls: 0
-  LoseSouls: 0
+  DefaultSouls: 0
   YES_AwnserConsequences:
     DialogueAfterAwnser:
     - "MUITO OBRIGADO SINH\xD4"
@@ -30,14 +29,13 @@ MonoBehaviour:
       Power: 0
     ConsequenceDialogues:
     - {fileID: 11400000, guid: 1c8f510babc3fdc4a8b55b2ff97eb7e9, type: 2}
+    SoulsAmount: 0
     ConsequenceEffector: []
   NO_AwnserConsequences:
     DialogueAfterAwnser:
     - RATOMANOCU
     - SEUFIDUMA EGUA
-    ConsequenceStats:
-    - Character: {fileID: 11400000, guid: 17c061983637b7e4bb7ce21368983a75, type: 2}
-      Popularity: -10
-      Power: 5
+    ConsequenceStats: []
     ConsequenceDialogues: []
+    SoulsAmount: 0
     ConsequenceEffector: []
