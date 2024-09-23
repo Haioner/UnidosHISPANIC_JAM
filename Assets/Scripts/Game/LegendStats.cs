@@ -5,5 +5,5 @@ public class LegendStats
 {
     public CharacterSO Character;
     [Space]
-    public float Popularity, Power;
+    public float Power;
 }

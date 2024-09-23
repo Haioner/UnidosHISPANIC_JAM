@@ -19,11 +19,13 @@ public class LegendsManager : MonoBehaviour
     private void OnEnable()
     {
         DialogueManager.OnDialogueEND += UpdateUI;
+        DialogueManager.OnDialogueEND += UpdateWorldPopulation;
     }
 
     private void OnDisable()
     {
         DialogueManager.OnDialogueEND -= UpdateUI;
+        DialogueManager.OnDialogueEND -= UpdateWorldPopulation;
     }
 
     private void Start()
@@ -36,13 +38,52 @@ public class LegendsManager : MonoBehaviour
         souls += amount;
     }
 
+    #region World Population
+    private void UpdateWorldPopulation(object sender, System.EventArgs e)
+    {
+        CalculatePopulationBirthAndDeath();
+
+        if (population < 0)
+            population = 0;
+
+        UpdatePopulationCount();
+    }
+
+    private void CalculatePopulationBirthAndDeath()
+    {
+        float maxRange = population * 0.00084f; //8bi population = 6 mi/month
+        float minRange = maxRange * 0.5f; // 50% of 6mi = 3mi
+        long randomBirths = (long)Random.Range(minRange, maxRange);
+        population += randomBirths;
+        Debug.Log("Random births: " + randomBirths);
+
+        CalculateLegendDeaths();
+    }
+
+    private void CalculateLegendDeaths()
+    {
+        foreach (var legend in currentLegendsStats)
+        {
+            //1 power = 96mil deaths
+            long deathsCausedByLegend = (long)(legend.Power * 96000);
+            population -= deathsCausedByLegend;
+            Debug.Log("Deaths por power: " + deathsCausedByLegend);
+
+            //50% souls
+            float soulsCollected = deathsCausedByLegend * 0.5f;
+            SetSouls(soulsCollected);
+            Debug.Log("Souls coletadas: " + soulsCollected);
+        }
+    }
+    #endregion
+
     public void AddLegendStats(LegendStats legendStats)
     {
         if (LegendIsDead(legendStats.Character) || !HaveBookSpace(legendStats.Character)) return;
 
         LegendStats newStats = new LegendStats();
         newStats.Character = legendStats.Character;
-        newStats.Popularity = newStats.Character.DefaultStats.Popularity;
+        //newStats.Popularity = newStats.Character.DefaultStats.Popularity;
         newStats.Power = newStats.Character.DefaultStats.Power;
 
         currentLegendsStats.Add(newStats);
@@ -105,7 +146,7 @@ public class LegendsManager : MonoBehaviour
         {
             if (stats.Character == newStats.Character)
             {
-                stats.Popularity += newStats.Popularity;
+                //stats.Popularity += newStats.Popularity;
                 stats.Power += newStats.Power;
                 characterFound = true;
                 break;
@@ -124,7 +165,8 @@ public class LegendsManager : MonoBehaviour
         {
             if (characterStats.Character == characterSO)
             {
-                if (characterStats.Popularity <= 0 || characterStats.Power <= 0)
+                //if (characterStats.Popularity <= 0 || characterStats.Power <= 0)
+                if (characterStats.Power <= 0)
                 {
                     RemoveCharacter(characterSO, characterStats);
                 }
@@ -169,6 +211,6 @@ public class LegendsManager : MonoBehaviour
 
     private void UpdateSoulsCount()
     {
-        soulsText.text = souls.ToString();
+        soulsText.text = NumberConverter.ConvertNumberToString(souls);
     }
 }

@@ -23,10 +23,9 @@ MonoBehaviour:
     DialogueAfterAwnser: []
     ConsequenceStats:
     - Character: {fileID: 11400000, guid: 21323606d7021004ba968e5aaa861f69, type: 2}
-      Popularity: 10
       Power: 0
     ConsequenceDialogues: []
-    SoulsAmount: -10
+    SoulsAmount: -100000
     ConsequenceEffector: []
   NO_AwnserConsequences:
     DialogueAfterAwnser: []

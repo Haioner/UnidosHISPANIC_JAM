@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 using DG.Tweening;
+using UnityEngine.EventSystems;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -68,14 +69,12 @@ public class DialogueManager : MonoBehaviour
             {
                 ApplyConsequence(true);
                 yesDOT.DORestart();
-                //inputHolder.SetActive(false);
             }
             
             if (Input.GetKeyDown(KeyCode.N))
             {
                 ApplyConsequence(false);
                 noDOT.DORestart();
-                //inputHolder.SetActive(false);
             }
         }
     }
