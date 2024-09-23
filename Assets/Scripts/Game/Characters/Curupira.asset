@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterIcon: {fileID: 0}
   characterSprite: {fileID: -5159087384432534610, guid: 215687feeab0b7445b4a1cd86c82c2e1, type: 3}
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
   DefaultStats:
     Character: {fileID: 0}
     Popularity: 5

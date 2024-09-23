@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using DG.Tweening;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -11,6 +12,10 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private TextMeshProUGUI characterNameText;
     [SerializeField] private LegendsManager legendsManager;
+
+    [Header("DOT")]
+    [SerializeField] private DOTweenAnimation yesDOT;
+    [SerializeField] private DOTweenAnimation noDOT;
 
     [Header("Dialogue")]
     [SerializeField] private float typeSpeed = 0.05f;
@@ -62,13 +67,15 @@ public class DialogueManager : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Y))
             {
                 ApplyConsequence(true);
-                inputHolder.SetActive(false);
+                yesDOT.DORestart();
+                //inputHolder.SetActive(false);
             }
             
             if (Input.GetKeyDown(KeyCode.N))
             {
                 ApplyConsequence(false);
-                inputHolder.SetActive(false);
+                noDOT.DORestart();
+                //inputHolder.SetActive(false);
             }
         }
     }
@@ -211,7 +218,7 @@ public class DialogueManager : MonoBehaviour
         waitingForChoice = false;
         SetCanDialoguePass(false);
         dialogueHolder.SetActive(false);
-        inputHolder.SetActive(false);
+        //inputHolder.SetActive(false);
         inDialogue = false;
         OnDialogueEND?.Invoke(this, System.EventArgs.Empty);
     }
