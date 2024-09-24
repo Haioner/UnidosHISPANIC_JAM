@@ -78,10 +78,6 @@ public class LegendsManager : MonoBehaviour
         {
             if (legend.Character == characterSO)
             {
-                ////1 power = 96mil deaths
-                //long deathsCausedByLegend = (long)(legend.Power * 96000);
-                //population -= deathsCausedByLegend;
-
                 //50% souls
                 float soulsCollected = legend.AcumulatedDeaths * 0.5f;
                 SetSouls(soulsCollected);
@@ -123,6 +119,13 @@ public class LegendsManager : MonoBehaviour
             return true;
 
         return currentLegendsStats.Count < maxLegends;
+    }
+
+    public void AddBook(int amount)
+    {
+        bookCount += amount;
+        FindFirstObjectByType<FloatNumberManager>().SpawnGainFloat("<sprite=3> " + amount.ToString());
+        UpdateBookCount();
     }
 
     public LegendStats GetLegendStat(CharacterSO legendCharacter)

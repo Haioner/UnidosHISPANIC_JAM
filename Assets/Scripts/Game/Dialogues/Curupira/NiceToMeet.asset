@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: NiceToMeet
   m_EditorClassIdentifier: 
   characterOwner: {fileID: 11400000, guid: 17c061983637b7e4bb7ce21368983a75, type: 2}
+  FreeSouls_END: 0
+  isTaxes: 0
   needAwnser: 1
   dialogue:
   - MIIIMMMM DEEEE
   - VAI ME NEGA UM PRATO DE COMIDA?
   - EIN? VAI?
-  DefaultSouls: 0
   YES_AwnserConsequences:
     DialogueAfterAwnser:
     - "MUITO OBRIGADO SINH\xD4"
@@ -26,6 +27,7 @@ MonoBehaviour:
     ConsequenceStats:
     - Character: {fileID: 11400000, guid: 17c061983637b7e4bb7ce21368983a75, type: 2}
       Power: 0
+      AcumulatedDeaths: 0
     ConsequenceDialogues: []
     SoulsAmount: -100000
     ConsequenceEffector: []

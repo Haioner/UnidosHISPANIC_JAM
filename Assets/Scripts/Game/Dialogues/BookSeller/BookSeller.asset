@@ -10,26 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f6e21445f226d8498654b4510aa6c5f, type: 3}
-  m_Name: FIRST_WantTragedy
+  m_Name: BookSeller
   m_EditorClassIdentifier: 
-  characterOwner: {fileID: 11400000, guid: 21323606d7021004ba968e5aaa861f69, type: 2}
+  characterOwner: {fileID: 11400000, guid: 696e1ad1cdbef554e91def7886162fc4, type: 2}
   FreeSouls_END: 0
   isTaxes: 0
   needAwnser: 1
   dialogue:
-  - My name echoes through rivers and lakes, but they are starting to forget my story...
-  - Bring more attention to my suffering, and I will bring more souls to you. We
-    both win.
+  - You want to buy a book?
   YES_AwnserConsequences:
     DialogueAfterAwnser: []
-    ConsequenceStats:
-    - Character: {fileID: 11400000, guid: 21323606d7021004ba968e5aaa861f69, type: 2}
-      Power: 0
-      AcumulatedDeaths: 0
-    ConsequenceDialogues:
-    - {fileID: 11400000, guid: 6e8edd6989f1b894cb977f52b043ab93, type: 2}
-    SoulsAmount: -100000
-    ConsequenceEffector: []
+    ConsequenceStats: []
+    ConsequenceDialogues: []
+    SoulsAmount: -1000000
+    ConsequenceEffector:
+    - {fileID: 3084465730414769644, guid: 5aa7042ca4d8d69419a0d399509eebea, type: 3}
   NO_AwnserConsequences:
     DialogueAfterAwnser: []
     ConsequenceStats: []

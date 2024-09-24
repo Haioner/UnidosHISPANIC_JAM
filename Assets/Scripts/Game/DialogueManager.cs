@@ -10,6 +10,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private GameObject dialogueHolder;
     [SerializeField] private GameObject inputHolder;
     [SerializeField] private TextMeshProUGUI dialogueText;
+    [SerializeField] private TextMeshProUGUI priceText;
     [SerializeField] private TextMeshProUGUI characterNameText;
     [SerializeField] private LegendsManager legendsManager;
     [SerializeField] private Transform npcTransform;
@@ -130,9 +131,32 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    private float GetSoulPrice(float soulAmount)
+    {
+        if (legendsManager.GetSoulsAmount() > Mathf.Abs(soulAmount) * 2 && soulAmount != 0)
+            return soulAmount + (-legendsManager.GetSoulsAmount() * 0.6f);
+        else
+            return soulAmount;
+    }
+
+    private void SetPriceText()
+    {
+        float priceAmount = Mathf.Abs(GetSoulPrice(dialogueList[0].YES_AwnserConsequences.SoulsAmount));
+        if (priceAmount > 0)
+        {
+            priceText.text = "<sprite=1> " + NumberConverter.ConvertNumberToString(priceAmount);
+        }
+        else
+        {
+            priceText.text = "";
+        }
+    }
+
     public void NextDialogue()
     {
         if (dialogueList.Count <= 0) return;
+
+        SetPriceText();
 
         if (dialogueList.Count > 0 && currentDialogue.Count <= 0)
             currentDialogue.AddRange(dialogueList[0].dialogue);
@@ -168,8 +192,8 @@ public class DialogueManager : MonoBehaviour
 
     private bool EnoughSouls(AwnserConsequence consequence)
     {
-        float totalPowerRequired = Mathf.Abs(consequence.SoulsAmount);
-        bool hasEnough = legendsManager.GetSoulsAmount() >= totalPowerRequired;
+        float totalSoulRequired = Mathf.Abs(GetSoulPrice(dialogueList[0].YES_AwnserConsequences.SoulsAmount));
+        bool hasEnough = legendsManager.GetSoulsAmount() >= totalSoulRequired;
 
         if (!hasEnough)
         {
@@ -238,12 +262,18 @@ public class DialogueManager : MonoBehaviour
         //Souls
         DialogueFREESouls(!canDialoguePass);
 
-        legendsManager.SetSouls(consequence.SoulsAmount);
-        string additionalString = "";
-        if (consequence.SoulsAmount < 0) additionalString = "<color=red> ";
+        float soulsAmount = consequence.SoulsAmount;
 
-        if (consequence.SoulsAmount != 0)
-            FindFirstObjectByType<FloatNumberManager>().SpawnGainFloat("<sprite=1>" + additionalString + NumberConverter.ConvertNumberToString(consequence.SoulsAmount));
+        if (isYes)
+            soulsAmount = GetSoulPrice(consequence.SoulsAmount);
+
+        string additionalString = "";
+        if (soulsAmount < 0) additionalString = "<color=red> -";
+
+        if (soulsAmount != 0)
+            FindFirstObjectByType<FloatNumberManager>().
+                SpawnGainFloat("<sprite=1>" + additionalString + NumberConverter.ConvertNumberToString(Mathf.Abs(GetSoulPrice(consequence.SoulsAmount))));
+        legendsManager.SetSouls(soulsAmount);
 
         //Update
         onGetStats?.Invoke(legendsManager.GetLegendStat(dialogueList[0].characterOwner));
