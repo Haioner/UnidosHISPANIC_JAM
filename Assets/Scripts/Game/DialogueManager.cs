@@ -3,7 +3,6 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 using DG.Tweening;
-using UnityEngine.EventSystems;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -13,6 +12,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private TextMeshProUGUI characterNameText;
     [SerializeField] private LegendsManager legendsManager;
+    [SerializeField] private Transform npcTransform;
 
     [Header("DOT")]
     [SerializeField] private DOTweenAnimation yesDOT;
@@ -25,8 +25,10 @@ public class DialogueManager : MonoBehaviour
     [Space]
     [SerializeField] private List<DialogueSO> dialogueList = new List<DialogueSO>();
     [SerializeField] private List<string> currentDialogue = new List<string>();
+    private DialogueSO lastDialogue;
 
     public static event System.EventHandler OnDialogueEND;
+    public static event System.EventHandler OnDialogueStart;
 
     public delegate void OnGetStats(LegendStats legendStats);
     public event OnGetStats onGetStats;
@@ -52,12 +54,6 @@ public class DialogueManager : MonoBehaviour
             if (Input.anyKeyDown)
             {
                 NextDialogue();
-
-                if (!inDialogue)
-                {
-                    inDialogue = true;
-                    SetCanDialoguePass(!dialogueList[0].needAwnser);
-                }
             }
         }
         else if (waitingForChoice)
@@ -104,6 +100,21 @@ public class DialogueManager : MonoBehaviour
         dialogueList.Add(newDialogue);
     }
 
+    public void RemoveRegistredFirstDialogue(DialogueSO newDialogue)
+    {
+        if (dialogueList.Count <= 0) return;
+        bool isRegistred = legendsManager.LegendIsRegistred(newDialogue.characterOwner);
+        if (!isRegistred) return;
+
+        for (int i = dialogueList.Count - 1; i >= 0; i--)
+        {
+            if (dialogueList[i] == newDialogue)
+            {
+                dialogueList.RemoveAt(i);
+            }
+        }
+    }
+
     private void RemoveDeadDialogues(CharacterSO deadCharacter)
     {
         if (dialogueList.Count <= 0) return;
@@ -126,6 +137,15 @@ public class DialogueManager : MonoBehaviour
         if (dialogueList.Count > 0 && currentDialogue.Count <= 0)
             currentDialogue.AddRange(dialogueList[0].dialogue);
 
+        if (!inDialogue)
+        {
+            if (dialogueList[0].isTaxes)
+                legendsManager.CalculateLegendDeaths(GetDialogueCharacter());
+
+            OnDialogueStart?.Invoke(this, System.EventArgs.Empty);
+            inDialogue = true;
+            SetCanDialoguePass(!dialogueList[0].needAwnser);
+        }
 
         if (isTyping)
         {
@@ -137,7 +157,7 @@ public class DialogueManager : MonoBehaviour
             characterNameText.color = dialogueList[0].characterOwner.nameColor;
 
             dialogueText.text = "";
-            typingCoroutine = StartCoroutine(TypeDialogue(GetCurrentDialogue()));
+            typingCoroutine = StartCoroutine(TypeDialogue(GetCurrentDialogueLine()));
         }
     }
 
@@ -146,12 +166,48 @@ public class DialogueManager : MonoBehaviour
         canDialoguePass = state;
     }
 
+    private bool EnoughSouls(AwnserConsequence consequence)
+    {
+        float totalPowerRequired = Mathf.Abs(consequence.SoulsAmount);
+        bool hasEnough = legendsManager.GetSoulsAmount() >= totalPowerRequired;
+
+        if (!hasEnough)
+        {
+            SetCanDialoguePass(true);
+            currentDialogue.Clear();
+            currentDialogueIndex = 0;
+            currentDialogue.Add("Not enough souls");
+            NextDialogue();
+
+            if (legendsManager.LegendIsRegistred(dialogueList[0].characterOwner))
+            {
+                LegendStats currentLegendStats = new LegendStats();
+                currentLegendStats.Character = dialogueList[0].characterOwner;
+                currentLegendStats.Power = -1;
+                legendsManager.ChangeLegendStats(currentLegendStats);
+                PowerFloatNumber(currentLegendStats);
+
+                onGetStats?.Invoke(legendsManager.GetLegendStat(dialogueList[0].characterOwner));
+                legendsManager.KillLegend(dialogueList[0].characterOwner);
+                RemoveDeadDialogues(dialogueList[0].characterOwner);
+            }
+        }
+
+        return hasEnough;
+    }
+
     private void ApplyConsequence(bool isYes)
     {
         AwnserConsequence consequence = isYes ? dialogueList[0].YES_AwnserConsequences : dialogueList[0].NO_AwnserConsequences;
+
+        if (!EnoughSouls(consequence)) return;
+        
         //Stats
         foreach (var stats in consequence.ConsequenceStats)
+        {
             legendsManager.ChangeLegendStats(stats);
+            PowerFloatNumber(stats);
+        }
 
         //Add Dialogues ballons
         if (consequence.ConsequenceDialogues.Count > 0)
@@ -180,9 +236,16 @@ public class DialogueManager : MonoBehaviour
         }
 
         //Souls
-        DialogueDefaultSouls(!canDialoguePass);
-        legendsManager.SetSouls(consequence.SoulsAmount);
+        DialogueFREESouls(!canDialoguePass);
 
+        legendsManager.SetSouls(consequence.SoulsAmount);
+        string additionalString = "";
+        if (consequence.SoulsAmount < 0) additionalString = "<color=red> ";
+
+        if (consequence.SoulsAmount != 0)
+            FindFirstObjectByType<FloatNumberManager>().SpawnGainFloat("<sprite=1>" + additionalString + NumberConverter.ConvertNumberToString(consequence.SoulsAmount));
+
+        //Update
         onGetStats?.Invoke(legendsManager.GetLegendStat(dialogueList[0].characterOwner));
         legendsManager.KillLegend(dialogueList[0].characterOwner);
         RemoveDeadDialogues(dialogueList[0].characterOwner);
@@ -193,33 +256,52 @@ public class DialogueManager : MonoBehaviour
         waitingForChoice = false;
     }
 
-    private void DialogueDefaultSouls(bool canChangeSouls)
+    private void PowerFloatNumber(LegendStats legendStats)
+    {
+        string additionalString = "";
+        if (legendStats.Power > 0) additionalString = "+";
+        else additionalString = "<color=red>";
+
+        if (legendStats.Power != 0)
+            FindFirstObjectByType<FloatNumberManager>().SpawnFloatNumber(additionalString + legendStats.Power.ToString(), npcTransform.position);
+    }
+
+    private void DialogueFREESouls(bool canChangeSouls)
     {
         if (canChangeSouls)
         {
-            legendsManager.SetSouls(dialogueList[0].DefaultSouls);
+            legendsManager.SetSouls(dialogueList[0].FreeSouls_END);
+            if (dialogueList[0].FreeSouls_END != 0)
+                FindFirstObjectByType<FloatNumberManager>().SpawnGainFloat("<sprite=1>" + NumberConverter.ConvertNumberToString(dialogueList[0].FreeSouls_END));
         }
     }
 
     private void EndDialogue()
     {
+        legendsManager.UpdateWorldPopulation();
+
         currentDialogue.Clear();
-        DialogueDefaultSouls(canDialoguePass);
+        DialogueFREESouls(canDialoguePass);
 
         if(dialogueList.Count > 0)
         {
+            lastDialogue = dialogueList[0];
             dialogueList.RemoveAt(0);
         }
-        
+
         currentDialogueIndex = 0;
         dialogueText.text = "";
         characterNameText.text = "";
         waitingForChoice = false;
         SetCanDialoguePass(false);
         dialogueHolder.SetActive(false);
-        //inputHolder.SetActive(false);
         inDialogue = false;
         OnDialogueEND?.Invoke(this, System.EventArgs.Empty);
+
+        if (lastDialogue != null)
+        {
+            RemoveRegistredFirstDialogue(lastDialogue.characterOwner.firstDialogue);
+        }
     }
 
     private IEnumerator TypeDialogue(string dialogue)
@@ -246,7 +328,7 @@ public class DialogueManager : MonoBehaviour
             StopCoroutine(typingCoroutine);
         }
 
-        dialogueText.text = GetCurrentDialogue();
+        dialogueText.text = GetCurrentDialogueLine();
         isTyping = false;
         currentDialogueIndex++;
         EnableChoice();
@@ -260,7 +342,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    private string GetCurrentDialogue()
+    private string GetCurrentDialogueLine()
     {
         return currentDialogue[currentDialogueIndex];
     }

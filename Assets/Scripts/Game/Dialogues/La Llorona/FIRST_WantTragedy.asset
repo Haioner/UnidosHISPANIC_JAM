@@ -10,29 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f6e21445f226d8498654b4510aa6c5f, type: 3}
-  m_Name: NiceToMeet
+  m_Name: FIRST_WantTragedy
   m_EditorClassIdentifier: 
-  characterOwner: {fileID: 11400000, guid: 17c061983637b7e4bb7ce21368983a75, type: 2}
+  characterOwner: {fileID: 11400000, guid: 21323606d7021004ba968e5aaa861f69, type: 2}
   needAwnser: 1
   dialogue:
-  - MIIIMMMM DEEEE
-  - VAI ME NEGA UM PRATO DE COMIDA?
-  - EIN? VAI?
+  - My name echoes through rivers and lakes, but they are starting to forget my story...
+  - Bring more attention to my suffering, and I will bring more souls to you. We
+    both win.
   DefaultSouls: 0
   YES_AwnserConsequences:
-    DialogueAfterAwnser:
-    - "MUITO OBRIGADO SINH\xD4"
-    - TENHA UM BOMDIA
+    DialogueAfterAwnser: []
     ConsequenceStats:
-    - Character: {fileID: 11400000, guid: 17c061983637b7e4bb7ce21368983a75, type: 2}
+    - Character: {fileID: 11400000, guid: 21323606d7021004ba968e5aaa861f69, type: 2}
       Power: 0
-    ConsequenceDialogues: []
+      AcumulatedDeaths: 0
+    ConsequenceDialogues:
+    - {fileID: 11400000, guid: 6e8edd6989f1b894cb977f52b043ab93, type: 2}
     SoulsAmount: -100000
     ConsequenceEffector: []
   NO_AwnserConsequences:
-    DialogueAfterAwnser:
-    - RATOMANOCU
-    - SEUFIDUMA EGUA
+    DialogueAfterAwnser: []
     ConsequenceStats: []
     ConsequenceDialogues: []
     SoulsAmount: 0

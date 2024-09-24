@@ -18,21 +18,20 @@ MonoBehaviour:
   - dddddddddd
   - eeeeeeeeeee
   - fffffffffffffffffff
-  EarnSouls: 0
-  LoseSouls: 0
+  DefaultSouls: 0
   YES_AwnserConsequences:
     DialogueAfterAwnser: []
     ConsequenceStats:
     - Character: {fileID: 11400000, guid: 17c061983637b7e4bb7ce21368983a75, type: 2}
-      Popularity: 10
       Power: 0
     ConsequenceDialogues: []
+    SoulsAmount: 0
     ConsequenceEffector: []
   NO_AwnserConsequences:
     DialogueAfterAwnser: []
     ConsequenceStats:
     - Character: {fileID: 11400000, guid: 17c061983637b7e4bb7ce21368983a75, type: 2}
-      Popularity: -10
-      Power: 6
+      Power: -6
     ConsequenceDialogues: []
+    SoulsAmount: 0
     ConsequenceEffector: []

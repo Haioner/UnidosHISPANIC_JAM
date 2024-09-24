@@ -18,12 +18,13 @@ public class DialogueSO : ScriptableObject
 {
     public CharacterSO characterOwner;
 
-    [Space]
+    [Header("Souls")]
+    public float FreeSouls_END;
+    public bool isTaxes;
+
+    [Header("Dialogue")]
     public bool needAwnser = true;
     public List<string> dialogue;
-
-    [Header("Souls")]
-    public float DefaultSouls;
 
     [Header("Consequences")]
     public AwnserConsequence YES_AwnserConsequences;

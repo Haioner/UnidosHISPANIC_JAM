@@ -21,8 +21,6 @@ public class StatsCanvas : MonoBehaviour
 
     public void UpdateStatsCanvas(LegendStats stats)
     {
-        //popularitySlider.value = stats.Popularity;
-        //powerSlider.value = stats.Power;
         powerTEXT.text = "Power " + stats.Power.ToString("F0");
     }
 }

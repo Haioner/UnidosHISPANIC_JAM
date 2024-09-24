@@ -25,7 +25,8 @@ MonoBehaviour:
     and start hunting the legends!
   - For now, you only have 1 legend book, which can hold 10 legends, but in the future,
     you can get more books.
-  DefaultSouls: 100000
+  FreeSouls_END: 100000
+  GiveSouls_DEATH: 0
   YES_AwnserConsequences:
     DialogueAfterAwnser: []
     ConsequenceStats: []

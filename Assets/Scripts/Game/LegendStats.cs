@@ -6,4 +6,6 @@ public class LegendStats
     public CharacterSO Character;
     [Space]
     public float Power;
+    [Space]
+    public float AcumulatedDeaths;
 }

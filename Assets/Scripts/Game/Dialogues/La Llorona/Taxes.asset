@@ -10,22 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f6e21445f226d8498654b4510aa6c5f, type: 3}
-  m_Name: WantTragedy
+  m_Name: Taxes
   m_EditorClassIdentifier: 
   characterOwner: {fileID: 11400000, guid: 21323606d7021004ba968e5aaa861f69, type: 2}
-  needAwnser: 1
+  FreeSouls_END: 0
+  isTaxes: 1
+  needAwnser: 0
   dialogue:
-  - My name echoes through rivers and lakes, but they are starting to forget my story...
-  - Bring more attention to my suffering, and I will bring more souls to you. We
-    both win.
-  DefaultSouls: 0
+  - Here your souls
   YES_AwnserConsequences:
     DialogueAfterAwnser: []
-    ConsequenceStats:
-    - Character: {fileID: 11400000, guid: 21323606d7021004ba968e5aaa861f69, type: 2}
-      Power: 0
+    ConsequenceStats: []
     ConsequenceDialogues: []
-    SoulsAmount: -100000
+    SoulsAmount: 0
     ConsequenceEffector: []
   NO_AwnserConsequences:
     DialogueAfterAwnser: []
