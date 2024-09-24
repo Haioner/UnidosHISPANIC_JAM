@@ -192,9 +192,9 @@ public class DialogueManager : MonoBehaviour
 
     private bool EnoughSouls(AwnserConsequence consequence)
     {
-        float totalSoulRequired = Mathf.Abs(GetSoulPrice(dialogueList[0].YES_AwnserConsequences.SoulsAmount));
+        float totalSoulRequired = Mathf.Abs(GetSoulPrice(consequence.SoulsAmount));
         bool hasEnough = legendsManager.GetSoulsAmount() >= totalSoulRequired;
-
+        Debug.Log(totalSoulRequired);
         if (!hasEnough)
         {
             SetCanDialoguePass(true);
