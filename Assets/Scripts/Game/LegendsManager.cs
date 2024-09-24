@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System.Collections;
 
 public class LegendsManager : MonoBehaviour
 {
@@ -11,13 +12,19 @@ public class LegendsManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI soulsText;
     [SerializeField] private long population = 8000000000;
     [SerializeField] private int bookCount;
-    [SerializeField] private float souls = 100;
+    [SerializeField] private long souls = 100;
+    [SerializeField] private long soulThreshold = 100000;
+    [SerializeField] private long populationMax = 20000000000;
+    private int jarCount = 0;
+    private float soulsAccumulated = 0f;
 
     public List<LegendStats> currentLegendsStats = new List<LegendStats>();
     [SerializeField] private List<LegendStats> deadLegendsStats = new List<LegendStats>();
 
     public delegate void OnLegendDies(int legendsCount);
     public event OnLegendDies onLegendDies;
+
+    public static event System.EventHandler OnPopulationMax;
 
     private void OnEnable()
     {
@@ -34,9 +41,42 @@ public class LegendsManager : MonoBehaviour
         UpdateUI(this, System.EventArgs.Empty);
     }
 
-    public void SetSouls(float amount)
+    public void SetSouls(long amount)
     {
         souls += amount;
+
+        if (amount > 0)
+        {
+            soulsAccumulated += amount;
+
+            StartCoroutine(SpawnJarsWithDelay());
+        }
+        else
+        {
+            float totalToRemove = -amount; // amount is negative when removing
+
+            while (jarCount > 0 && totalToRemove >= soulThreshold * jarCount)
+            {
+                totalToRemove -= soulThreshold * jarCount;
+                FindFirstObjectByType<SoulsController>().RemoveJar();
+                jarCount--;
+            }
+        }
+
+        UpdateSoulsCount();
+    }
+
+    private IEnumerator SpawnJarsWithDelay()
+    {
+        while (soulsAccumulated >= soulThreshold * (jarCount + 1))
+        {
+            FindFirstObjectByType<SoulsController>().SpawnJar();
+
+            soulsAccumulated -= soulThreshold * (jarCount + 1);
+            jarCount++;
+
+            yield return new WaitForSeconds(0.2f);
+        }
     }
 
     public float GetSoulsAmount()
@@ -52,6 +92,9 @@ public class LegendsManager : MonoBehaviour
 
         if (population < 0)
             population = 0;
+
+        if(population >= populationMax)
+            OnPopulationMax?.Invoke(this, System.EventArgs.Empty);
 
         UpdateUI(this,System.EventArgs.Empty);
     }
@@ -80,7 +123,7 @@ public class LegendsManager : MonoBehaviour
             {
                 //50% souls
                 float soulsCollected = legend.AcumulatedDeaths * 0.5f;
-                SetSouls(soulsCollected);
+                SetSouls((long)soulsCollected);
                 legend.AcumulatedDeaths = 0;
                 FindFirstObjectByType<FloatNumberManager>().SpawnGainFloat("<sprite=1> " + NumberConverter.ConvertNumberToString(soulsCollected));
             }

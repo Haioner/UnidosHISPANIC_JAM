@@ -1,11 +1,8 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class StatsCanvas : MonoBehaviour
 {
-    [SerializeField] private Slider popularitySlider;
-    [SerializeField] private Slider powerSlider;
     [SerializeField] private TextMeshProUGUI powerTEXT;
     [SerializeField] private DialogueManager dialogueManager;
 

@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private TextMeshProUGUI priceText;
     [SerializeField] private TextMeshProUGUI characterNameText;
+    [SerializeField] private TextMeshProUGUI dialogueCountTEXT;
     [SerializeField] private LegendsManager legendsManager;
     [SerializeField] private Transform npcTransform;
 
@@ -39,6 +40,7 @@ public class DialogueManager : MonoBehaviour
     private bool waitingForChoice = false;
     private bool canDialoguePass = false;
     private Coroutine typingCoroutine;
+    private int currentDialogueCount;
 
     private void Update()
     {
@@ -131,17 +133,17 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    private float GetSoulPrice(float soulAmount)
+    private long GetSoulPrice(long soulAmount)
     {
         if (legendsManager.GetSoulsAmount() > Mathf.Abs(soulAmount) * 2 && soulAmount != 0)
-            return soulAmount + (-legendsManager.GetSoulsAmount() * 0.6f);
+            return (long)(soulAmount + (-legendsManager.GetSoulsAmount() * 0.6f));
         else
             return soulAmount;
     }
 
     private void SetPriceText()
     {
-        float priceAmount = Mathf.Abs(GetSoulPrice(dialogueList[0].YES_AwnserConsequences.SoulsAmount));
+        long priceAmount = (long)Mathf.Abs(GetSoulPrice(dialogueList[0].YES_AwnserConsequences.SoulsAmount));
         if (priceAmount > 0)
         {
             priceText.text = "<sprite=1> " + NumberConverter.ConvertNumberToString(priceAmount);
@@ -150,6 +152,15 @@ public class DialogueManager : MonoBehaviour
         {
             priceText.text = "";
         }
+    }
+
+    private void CountPages()
+    {
+        currentDialogueCount++;
+        dialogueCountTEXT.text = "Page " + currentDialogueCount;
+
+        if (currentDialogueCount >= 10 && legendsManager.currentLegendsStats.Count <= 0)
+            FindFirstObjectByType<GameOverController>().GameOver("You refused to work and were fired...");
     }
 
     public void NextDialogue()
@@ -166,6 +177,8 @@ public class DialogueManager : MonoBehaviour
             if (dialogueList[0].isTaxes)
                 legendsManager.CalculateLegendDeaths(GetDialogueCharacter());
 
+
+            CountPages();
             OnDialogueStart?.Invoke(this, System.EventArgs.Empty);
             inDialogue = true;
             SetCanDialoguePass(!dialogueList[0].needAwnser);
@@ -192,9 +205,9 @@ public class DialogueManager : MonoBehaviour
 
     private bool EnoughSouls(AwnserConsequence consequence)
     {
-        float totalSoulRequired = Mathf.Abs(GetSoulPrice(consequence.SoulsAmount));
+        long totalSoulRequired = (long)Mathf.Abs(GetSoulPrice(consequence.SoulsAmount));
         bool hasEnough = legendsManager.GetSoulsAmount() >= totalSoulRequired;
-        Debug.Log(totalSoulRequired);
+
         if (!hasEnough)
         {
             SetCanDialoguePass(true);
@@ -262,7 +275,7 @@ public class DialogueManager : MonoBehaviour
         //Souls
         DialogueFREESouls(!canDialoguePass);
 
-        float soulsAmount = consequence.SoulsAmount;
+        long soulsAmount = consequence.SoulsAmount;
 
         if (isYes)
             soulsAmount = GetSoulPrice(consequence.SoulsAmount);
@@ -273,7 +286,7 @@ public class DialogueManager : MonoBehaviour
         if (soulsAmount != 0)
             FindFirstObjectByType<FloatNumberManager>().
                 SpawnGainFloat("<sprite=1>" + additionalString + NumberConverter.ConvertNumberToString(Mathf.Abs(GetSoulPrice(consequence.SoulsAmount))));
-        legendsManager.SetSouls(soulsAmount);
+        legendsManager.SetSouls((long)soulsAmount);
 
         //Update
         onGetStats?.Invoke(legendsManager.GetLegendStat(dialogueList[0].characterOwner));

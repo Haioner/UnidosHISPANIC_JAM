@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Tutorial
   m_EditorClassIdentifier: 
   characterOwner: {fileID: 11400000, guid: 351aa10f82c952947b120b5489b9689e, type: 2}
+  FreeSouls_END: 150000
+  isTaxes: 0
   needAwnser: 0
   dialogue:
   - Welcome! You must be the new legend writer.
@@ -25,8 +27,6 @@ MonoBehaviour:
     and start hunting the legends!
   - For now, you only have 1 legend book, which can hold 10 legends, but in the future,
     you can get more books.
-  FreeSouls_END: 100000
-  GiveSouls_DEATH: 0
   YES_AwnserConsequences:
     DialogueAfterAwnser: []
     ConsequenceStats: []
