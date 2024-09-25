@@ -17,7 +17,12 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: d2e5a4d0123635048bfef0ca3a215a1b, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 1005420810240
+    m_Localized: Look at how regretful I am for my children. Look at all the souls
+      I've collected for you.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

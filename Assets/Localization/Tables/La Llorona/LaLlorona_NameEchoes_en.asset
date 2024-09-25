@@ -17,7 +17,20 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 69fc0ea0ecbd2d140b514d21d54ddcd5, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 6543118336
+    m_Localized: 'My name echoes through rivers and lakes, but they are starting
+      to forget my story. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39028002816
+    m_Localized: Pay more attention to my suffering.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 586762162176
+    m_Localized: Regrettable, I feel my power fading away.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

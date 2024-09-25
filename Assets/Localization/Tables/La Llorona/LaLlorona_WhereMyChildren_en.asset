@@ -10,25 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: LaLlorona_NameEchoes_pt-BR
+  m_Name: LaLlorona_WhereMyChildren_en
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: pt-BR
-  m_SharedData: {fileID: 11400000, guid: 69fc0ea0ecbd2d140b514d21d54ddcd5, type: 2}
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 65f9d4645502fd54f852be16aa59b982, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 6543118336
-    m_Localized: "Meu nome ecoa atrav\xE9s de rios e lagos, mas eles est\xE3o come\xE7ando
-      a esquecer minha hist\xF3ria."
+  - m_Id: 4366274560
+    m_Localized: "My children, where are my children? I can\u2019t find them!"
     m_Metadata:
       m_Items: []
-  - m_Id: 39028002816
-    m_Localized: "D\xEA mais aten\xE7\xE3o ao meu sofrimento."
+  - m_Id: 13090426880
+    m_Localized: POWER, I NEED MORE POWER!
     m_Metadata:
       m_Items: []
-  - m_Id: 586762162176
-    m_Localized: "Lament\xE1vel, sinto meu poder se esvaindo."
+  - m_Id: 233475936256
+    m_Localized: YES, NOW I'LL BE ABLE TO FIND THEM!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246931263488
+    m_Localized: NOOO! I NEED TO FIND THEM!
     m_Metadata:
       m_Items: []
   references:

@@ -63,6 +63,42 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a13365a50025bb4aac1550704d8695e
+    m_Address: LaLlorona_NameEchoes_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8371ec4a8ffa80444bcc5fdb92a015d1
+    m_Address: LaLlorona_SawChildren_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf3334b6c69f4284b8367478774fd2ec
+    m_Address: LaLlorona_BroughtSouls_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c85fd167df61d3342b68769cf2118c58
+    m_Address: LaLlorona_RefusedChildren_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fdbc6fcb90af3d429ba5801801a91ff
+    m_Address: LaLlorona_RiverSwelled_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af3a4a385e335a0458602e7c7f802c0f
+    m_Address: LaLlorona_WhereMyChildren_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:

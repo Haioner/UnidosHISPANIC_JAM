@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: LaLlorona_FirstSouls
   m_TableCollectionNameGuidString: d2e5a4d0123635048bfef0ca3a215a1b
-  m_Entries: []
+  m_Entries:
+  - m_Id: 1005420810240
+    m_Key: 1
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

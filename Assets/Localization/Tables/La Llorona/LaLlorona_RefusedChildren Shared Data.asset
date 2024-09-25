@@ -10,31 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
-  m_Name: LaLlorona_NameEchoes Shared Data
+  m_Name: LaLlorona_RefusedChildren Shared Data
   m_EditorClassIdentifier: 
-  m_TableCollectionName: LaLlorona_NameEchoes
-  m_TableCollectionNameGuidString: 69fc0ea0ecbd2d140b514d21d54ddcd5
+  m_TableCollectionName: LaLlorona_RefusedChildren
+  m_TableCollectionNameGuidString: 89e2502968c2e6e40a1f44780198645f
   m_Entries:
-  - m_Id: 6543118336
+  - m_Id: 4018147328
     m_Key: 1
     m_Metadata:
       m_Items: []
-  - m_Id: 39028002816
+  - m_Id: 11093938176
     m_Key: 2
-    m_Metadata:
-      m_Items: []
-  - m_Id: 586762162176
-    m_Key: NO_1
     m_Metadata:
       m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 8164374675553518028
+    rid: 8164374675553518031
   references:
     version: 2
     RefIds:
-    - rid: 8164374675553518028
+    - rid: 8164374675553518031
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1727245017529
+        m_CustomEpoch: 1727245640733

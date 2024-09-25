@@ -10,26 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f6e21445f226d8498654b4510aa6c5f, type: 3}
-  m_Name: LaLlorona_NameEchoes
+  m_Name: LaLlorona_BroughtSouls_TAXES
   m_EditorClassIdentifier: 
   characterOwner: {fileID: 11400000, guid: 21323606d7021004ba968e5aaa861f69, type: 2}
   FreeSouls_END: 0
-  isTaxes: 0
-  needAwnser: 1
-  dialogueTable: {fileID: 11400000, guid: bae426f033613e74bb3f749fd7c9c7be, type: 2}
+  isTaxes: 1
+  needAwnser: 0
+  dialogueTable: {fileID: 11400000, guid: 761cb94a8d2b95b42af96e8cdaf05b56, type: 2}
   YES_AwnserConsequences:
-    ConsequenceStats:
-    - Character: {fileID: 11400000, guid: 21323606d7021004ba968e5aaa861f69, type: 2}
-      Power: 1
-      AcumulatedDeaths: 0
+    ConsequenceStats: []
     ConsequenceDialogues: []
-    SoulsAmount: -80000
+    SoulsAmount: 0
     ConsequenceEffector: []
   NO_AwnserConsequences:
-    ConsequenceStats:
-    - Character: {fileID: 11400000, guid: 21323606d7021004ba968e5aaa861f69, type: 2}
-      Power: -1
-      AcumulatedDeaths: 0
+    ConsequenceStats: []
     ConsequenceDialogues: []
     SoulsAmount: 0
     ConsequenceEffector: []

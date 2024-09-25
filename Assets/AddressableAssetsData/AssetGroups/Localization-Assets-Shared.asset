@@ -61,6 +61,42 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69fc0ea0ecbd2d140b514d21d54ddcd5
+    m_Address: Assets/Localization/Tables/La Llorona/LaLlorona_NameEchoes Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e6b8e0550c5faf46acaddeae3f83d98
+    m_Address: Assets/Localization/Tables/La Llorona/LaLlorona_SawChildren Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92100c225a5feb444a4c83c8f3c68882
+    m_Address: Assets/Localization/Tables/La Llorona/LaLlorona_BroughtSouls Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89e2502968c2e6e40a1f44780198645f
+    m_Address: Assets/Localization/Tables/La Llorona/LaLlorona_RefusedChildren Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18af648ab3a5bfd44b43fd0f56c44778
+    m_Address: Assets/Localization/Tables/La Llorona/LaLlorona_RiverSwelled Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65f9d4645502fd54f852be16aa59b982
+    m_Address: Assets/Localization/Tables/La Llorona/LaLlorona_WhereMyChildren Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:

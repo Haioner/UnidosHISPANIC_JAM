@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: LaLlorona_RiverSwelled
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 18af648ab3a5bfd44b43fd0f56c44778, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 8fdbc6fcb90af3d429ba5801801a91ff, type: 2}
+  - {fileID: 11400000, guid: abc0bb7dc3fb9c240b759a7c1a0668bb, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

@@ -10,25 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: LaLlorona_NameEchoes_pt-BR
+  m_Name: LaLlorona_SawChildren_pt-BR
   m_EditorClassIdentifier: 
   m_LocaleId:
     m_Code: pt-BR
-  m_SharedData: {fileID: 11400000, guid: 69fc0ea0ecbd2d140b514d21d54ddcd5, type: 2}
+  m_SharedData: {fileID: 11400000, guid: 4e6b8e0550c5faf46acaddeae3f83d98, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
-  - m_Id: 6543118336
-    m_Localized: "Meu nome ecoa atrav\xE9s de rios e lagos, mas eles est\xE3o come\xE7ando
-      a esquecer minha hist\xF3ria."
+  - m_Id: 4013953024
+    m_Localized: "Vi algumas crian\xE7as, mas estavam um pouco longe do lago."
     m_Metadata:
       m_Items: []
-  - m_Id: 39028002816
-    m_Localized: "D\xEA mais aten\xE7\xE3o ao meu sofrimento."
+  - m_Id: 7738494976
+    m_Localized: "Pareciam meus filhos... preciso de mais poder para ir at\xE9 eles."
     m_Metadata:
       m_Items: []
-  - m_Id: 586762162176
-    m_Localized: "Lament\xE1vel, sinto meu poder se esvaindo."
+  - m_Id: 11093938176
+    m_Localized: "Por que n\xE3o me ajuda? S\xF3 queria poder ver meus filhos novamente!"
     m_Metadata:
       m_Items: []
   references:

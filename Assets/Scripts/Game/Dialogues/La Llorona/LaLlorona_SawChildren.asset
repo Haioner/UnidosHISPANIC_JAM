@@ -10,26 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f6e21445f226d8498654b4510aa6c5f, type: 3}
-  m_Name: LaLlorona_NameEchoes
+  m_Name: LaLlorona_SawChildren
   m_EditorClassIdentifier: 
   characterOwner: {fileID: 11400000, guid: 21323606d7021004ba968e5aaa861f69, type: 2}
   FreeSouls_END: 0
   isTaxes: 0
   needAwnser: 1
-  dialogueTable: {fileID: 11400000, guid: bae426f033613e74bb3f749fd7c9c7be, type: 2}
+  dialogueTable: {fileID: 11400000, guid: 6dcc137da61c94f47b1b5d867d587b7a, type: 2}
   YES_AwnserConsequences:
     ConsequenceStats:
     - Character: {fileID: 11400000, guid: 21323606d7021004ba968e5aaa861f69, type: 2}
       Power: 1
       AcumulatedDeaths: 0
     ConsequenceDialogues: []
-    SoulsAmount: -80000
+    SoulsAmount: -50000
     ConsequenceEffector: []
   NO_AwnserConsequences:
-    ConsequenceStats:
-    - Character: {fileID: 11400000, guid: 21323606d7021004ba968e5aaa861f69, type: 2}
-      Power: -1
-      AcumulatedDeaths: 0
-    ConsequenceDialogues: []
+    ConsequenceStats: []
+    ConsequenceDialogues:
+    - {fileID: 11400000, guid: 524d46b3c53ec2a43894d4901277ccb4, type: 2}
     SoulsAmount: 0
     ConsequenceEffector: []
