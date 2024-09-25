@@ -13,28 +13,16 @@ MonoBehaviour:
   m_Name: Tutorial
   m_EditorClassIdentifier: 
   characterOwner: {fileID: 11400000, guid: 351aa10f82c952947b120b5489b9689e, type: 2}
-  FreeSouls_END: 150000
+  FreeSouls_END: 250000
   isTaxes: 0
   needAwnser: 0
-  dialogue:
-  - Welcome! You must be the new legend writer.
-  - Your job is to manage the legends, keeping them alive.
-  - Use souls to fulfill the legends' requests, and earn more souls when the legends
-    take souls from humans.
-  - Remember to keep at least one legend alive, or no more legends will want to sign
-    up...
-  - Oh, and don't let humanity reproduce too much, or they'll become the majority
-    and start hunting the legends!
-  - For now, you only have 1 legend book, which can hold 10 legends, but in the future,
-    you can get more books.
+  dialogueTable: {fileID: 11400000, guid: dc75fc2a2b56a7f4b94925e20f724a66, type: 2}
   YES_AwnserConsequences:
-    DialogueAfterAwnser: []
     ConsequenceStats: []
     ConsequenceDialogues: []
     SoulsAmount: 0
     ConsequenceEffector: []
   NO_AwnserConsequences:
-    DialogueAfterAwnser: []
     ConsequenceStats: []
     ConsequenceDialogues: []
     SoulsAmount: 0

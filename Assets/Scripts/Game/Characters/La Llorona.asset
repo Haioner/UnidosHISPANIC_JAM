@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93ffcd430f04cd348849b68169435448, type: 3}
   m_Name: La Llorona
   m_EditorClassIdentifier: 
-  characterIcon: {fileID: -3620835448711888342, guid: d98157d1f7f5c1b46a63c7996a293337, type: 3}
   characterSprite: {fileID: 21300000, guid: d98157d1f7f5c1b46a63c7996a293337, type: 3}
   nameColor: {r: 0.70980394, g: 0.49411765, b: 0.8627451, a: 1}
   DefaultStats:
@@ -24,4 +23,3 @@ MonoBehaviour:
   defaultDialogues:
   - {fileID: 11400000, guid: 14cb30d043a611a4588aeb801267e820, type: 2}
   - {fileID: 11400000, guid: 14cb30d043a611a4588aeb801267e820, type: 2}
-  - {fileID: 11400000, guid: 6e8edd6989f1b894cb977f52b043ab93, type: 2}

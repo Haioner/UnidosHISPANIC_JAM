@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_GUID: a9206eb4c8b5278409080168d7c8cd91
+  m_SerializeEntries:
+  - m_GUID: ec7cde5cbb8e35f478851b46287ca5ff
+    m_Address: Assets/Localization/Tables/Fairy/Fairy_Tutorial Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fee24573741b32045a022dc3015b2abe
+    m_Address: Assets/Localization/Tables/UI/UI Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a7935306cca1664fb10b6a379459160
+    m_Address: Assets/Localization/Tables/La Llorona/LaLlorona_FirstDialogue Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f45b9bae8a5ad114ea1d97f13da682c7
+    m_Address: Assets/Localization/Tables/El Cadejo/ElCadejo_FirstDialogue Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f405232021669c41a5391170722624b
+    m_Address: Assets/Localization/Tables/El Chupacabra/ElChupacabra_FirstDialogue
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbd57f9bf16f103488279e05c5dd093d
+    m_Address: Assets/Localization/Tables/La Ciguapa/LaCiguapa_FirstDialogue Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e3c532d9e51c2b4a83fc5e4772766f2
+    m_Address: Assets/Localization/Tables/El Silbon/ElSilbon_FirstDialogue Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2e5a4d0123635048bfef0ca3a215a1b
+    m_Address: Assets/Localization/Tables/La Llorona/LaLlorona_FirstSouls Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8dd967502ddc17745a2f6d32a03b318d, type: 2}
+    - {fileID: 11400000, guid: 167f182160775f24dad4f945f0437c2b, type: 2}

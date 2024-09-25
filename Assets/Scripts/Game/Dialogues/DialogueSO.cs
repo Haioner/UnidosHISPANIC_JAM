@@ -1,10 +1,10 @@
 using System.Collections.Generic;
+using UnityEditor.Localization;
 using UnityEngine;
 
 [System.Serializable]
 public class AwnserConsequence
 {
-    public List<string> DialogueAfterAwnser;
     public List<LegendStats> ConsequenceStats = new List<LegendStats>();
     public List<DialogueSO> ConsequenceDialogues = new List<DialogueSO>();
     public long SoulsAmount;
@@ -13,7 +13,7 @@ public class AwnserConsequence
     public List<GameObject> ConsequenceEffector;
 }
 
-[CreateAssetMenu(menuName ="Game/Dialogue")]
+[CreateAssetMenu(menuName ="Game/Dialogue", order = 0)]
 public class DialogueSO : ScriptableObject
 {
     public CharacterSO characterOwner;
@@ -24,7 +24,7 @@ public class DialogueSO : ScriptableObject
 
     [Header("Dialogue")]
     public bool needAwnser = true;
-    public List<string> dialogue;
+    public StringTableCollection dialogueTable;
 
     [Header("Consequences")]
     public AwnserConsequence YES_AwnserConsequences;

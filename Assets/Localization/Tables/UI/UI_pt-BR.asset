@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: fee24573741b32045a022dc3015b2abe, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 5247078400
+    m_Localized: "Popula\xE7\xE3o Mundial"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3310845169664
+    m_Localized: Quantidade de Lendas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3383834447872
+    m_Localized: Quantidade de Livros
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3431720816640
+    m_Localized: Quantidade de Almas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4095217766400
+    m_Localized: Como jogar?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4270434816000
+    m_Localized: "Voc\xEA \xE9 um escritor de lendas e deve equilibrar o poder delas
+      com a popula\xE7\xE3o mundial.\n                             Comandos de teclado:
+      (Y = SIM) (N = N\xC3O)\n <sprite=0> <color=#C92A2A>Popula\xE7\xE3o Mundial</color>\nSe
+      a popula\xE7\xE3o chegar a 0, o jogo acaba.\nSe a popula\xE7\xE3o crescer demais,
+      as lendas come\xE7am a ser ca\xE7adas e mortas.\n\n<sprite=2> <color=#87CEFA>Lendas</color>\nSe
+      uma lenda perder todo o seu poder, ela morre e n\xE3o volta mais.\nSe voc\xEA
+      matar todas as lendas, o jogo acaba.\n\n<sprite=1> <color=#B57EDC>Almas</color>\nCada
+      lenda coleta almas com base no seu poder.\nUse as almas para aumentar o poder
+      das lendas e controlar a popula\xE7\xE3o."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5415202983936
+    m_Localized: "P\xE1gina"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7443748753408
+    m_Localized: "Voc\xEA se recusou a trabalhar e foi demitido..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8147817205760
+    m_Localized: "Voc\xEA n\xE3o tem almas suficientes..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8994173227008
+    m_Localized: "O mundo ultrapassou 20 bilh\xF5es, e todas as lendas foram ca\xE7adas..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9339410583552
+    m_Localized: "Voc\xEA n\xE3o equilibrou o poder das lendas, todas as lendas morreram..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9738662187008
+    m_Localized: Denovo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10380189372416
+    m_Localized: Poder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10768644837376
+    m_Localized: Mudar Idioma
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

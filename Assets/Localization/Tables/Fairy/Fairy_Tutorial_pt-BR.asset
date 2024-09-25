@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Fairy_Tutorial_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: ec7cde5cbb8e35f478851b46287ca5ff, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 32484888576
+    m_Localized: "Oh, voc\xEA chegou! o novo escritor de lendas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22212039938048
+    m_Localized: "\rJ\xE1 que voc\xEA \xE9 novo, vou te contar como \xE9 o trabalho
+      por aqui. V\xE3o passar lendas pedindo para que voc\xEA escreva a hist\xF3ria
+      delas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22265659920384
+    m_Localized: "As hist\xF3rias precisam de almas pra registrar certinho no livro.
+      N\xE3o se se esquece de cobrar pra que elas tragam mais almas quando voltarem
+      de novo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22292268584960
+    m_Localized: "Quanto mais poder de hist\xF3ria elas tem mais almas elas v\xE3o
+      trazer, mas n\xE3o deixa que o poder delas acabe, se n\xE3o elas morrem!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22313906999296
+    m_Localized: "Mas tamb\xE9m n\xE3o da poder de mais, se n\xE3o acaba as pessoas
+      do mundo. e n\xE3o vai ter mais almas pra coletar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22337026002944
+    m_Localized: "E n\xE3o deixa a humanidade crescer de mais, por que ai elas come\xE7a
+      a se revoltar de mais contra as lendas e eles matam elas. Mant\xEAm o equilibrio,
+      esse \xE9 o seu trabalho"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22363399786496
+    m_Localized: "Por enquanto voc\xEA s\xF3 tem um livro, mas pode ser que um mercador
+      venha vendar livros magicos. Ai voc\xEA consegue registrar mais lendas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22382190268416
+    m_Localized: "Toma aqui umas almas pra voc\xEA come\xE7ar seu trabalho. Boa sorte"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

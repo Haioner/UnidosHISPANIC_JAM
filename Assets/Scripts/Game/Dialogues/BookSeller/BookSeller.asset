@@ -16,6 +16,7 @@ MonoBehaviour:
   FreeSouls_END: 0
   isTaxes: 0
   needAwnser: 1
+  dialogueTable: {fileID: 0}
   dialogue:
   - You want to buy a book?
   YES_AwnserConsequences:

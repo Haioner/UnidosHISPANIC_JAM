@@ -17,7 +17,7 @@ MonoBehaviour:
   nameColor: {r: 0.13333334, g: 0.54509807, b: 0.13333334, a: 1}
   DefaultStats:
     Character: {fileID: 0}
-    Power: 0
+    Power: 1
     AcumulatedDeaths: 0
   DefaultPriority: 100
   firstDialogue: {fileID: 11400000, guid: 874f689cf7ecfe4408408f000966b57b, type: 2}

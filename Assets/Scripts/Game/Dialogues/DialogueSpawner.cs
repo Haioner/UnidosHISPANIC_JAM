@@ -57,7 +57,10 @@ public class DialogueSpawner : MonoBehaviour
             if(characterPriority.CurrentPriority <= 0)
             {
                 if (legendsManager.currentLegendsStats.Count >= 1)
-                    characterPriority.CurrentPriority = characterPriority.characterSO.DefaultPriority;
+                {
+                    int randomPriority = Random.Range((characterPriority.characterSO.DefaultPriority / 2) + 1, characterPriority.characterSO.DefaultPriority);
+                    characterPriority.CurrentPriority = randomPriority;
+                }
                 else
                     characterPriority.CurrentPriority = 1;
 

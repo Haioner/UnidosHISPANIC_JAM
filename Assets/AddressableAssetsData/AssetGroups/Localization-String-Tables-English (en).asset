@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-English (en)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-English (en)
+  m_GUID: 9cd44541786132943aa7c2b14bd53189
+  m_SerializeEntries:
+  - m_GUID: 317b702c5695fce46adc4faeaefd6b1d
+    m_Address: Fairy_Tutorial_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cff7bc35696e0c48a502c2b32426fa0
+    m_Address: UI_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba0c158351ec41e4ea7368fc25c42c43
+    m_Address: LaLlorona_FirstDialogue_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0d2c922bdcfe8849aab246a5d4cc112
+    m_Address: ElCadejo_FirstDialogue_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 494ad407e81ce5a4aa95d6400919712a
+    m_Address: ElChupacabra_FirstDialogue_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9b183104b32f8d439028fa87d50d78b
+    m_Address: LaCiguapa_FirstDialogue_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5246f33f3870abe4d82c0df4e65a295d
+    m_Address: ElSilbon_FirstDialogue_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3128942115f761048a953efe53f2eb2f
+    m_Address: LaLlorona_FirstSouls_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7744b4f69807caa4aaa4f2508f6659eb, type: 2}
+    - {fileID: 11400000, guid: 8aef8eaa5709caa4d980ab86552e5738, type: 2}

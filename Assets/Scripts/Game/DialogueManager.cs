@@ -3,6 +3,9 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 using DG.Tweening;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Tables;
+using UnityEngine.Localization.Settings;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -15,6 +18,11 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI dialogueCountTEXT;
     [SerializeField] private LegendsManager legendsManager;
     [SerializeField] private Transform npcTransform;
+
+    [Header("String Localized")]
+    [SerializeField] private LocalizedString pageLocale;
+    [SerializeField] private LocalizedString refusedWorkLocale;
+    [SerializeField] private LocalizedString enoughSoulsLocale;
 
     [Header("DOT")]
     [SerializeField] private DOTweenAnimation yesDOT;
@@ -41,9 +49,11 @@ public class DialogueManager : MonoBehaviour
     private bool canDialoguePass = false;
     private Coroutine typingCoroutine;
     private int currentDialogueCount;
+    public bool canDialogue = true;
 
     private void Update()
     {
+        if (!canDialogue) return;
         if (dialogueList.Count <= 0) return;
         StartDefaultDialogues();
 
@@ -135,10 +145,11 @@ public class DialogueManager : MonoBehaviour
 
     private long GetSoulPrice(long soulAmount)
     {
-        if (legendsManager.GetSoulsAmount() > Mathf.Abs(soulAmount) * 2 && soulAmount != 0)
-            return (long)(soulAmount + (-legendsManager.GetSoulsAmount() * 0.6f));
-        else
-            return soulAmount;
+        //if (legendsManager.GetSoulsAmount() > Mathf.Abs(soulAmount) * 2 && soulAmount != 0)
+        //    return (long)(soulAmount + (-legendsManager.GetSoulsAmount() * 0.6f));
+        //else
+        //    return soulAmount;
+        return (long)(soulAmount * legendsManager.GetLegendStat(dialogueList[0].characterOwner).Power);
     }
 
     private void SetPriceText()
@@ -157,10 +168,28 @@ public class DialogueManager : MonoBehaviour
     private void CountPages()
     {
         currentDialogueCount++;
-        dialogueCountTEXT.text = "Page " + currentDialogueCount;
+        UpdatePageText();
 
         if (currentDialogueCount >= 10 && legendsManager.currentLegendsStats.Count <= 0)
-            FindFirstObjectByType<GameOverController>().GameOver("You refused to work and were fired...");
+            FindFirstObjectByType<GameOverController>().GameOver(refusedWorkLocale.GetLocalizedString());
+    }
+
+    public void UpdatePageText()
+    {
+        dialogueCountTEXT.text = pageLocale.GetLocalizedString() + " " + currentDialogueCount;
+    }
+
+    public void UpdateLocalizedDialogue()
+    {
+        currentDialogue.Clear();
+        currentDialogue.AddRange(GetCurrentLocalizedDialogue());
+
+        if (isTyping)
+        {
+            CompleteTyping();
+        }
+        else if (!isTyping && currentDialogueIndex > 0)
+            dialogueText.text = currentDialogue[currentDialogueIndex - 1];
     }
 
     public void NextDialogue()
@@ -170,7 +199,9 @@ public class DialogueManager : MonoBehaviour
         SetPriceText();
 
         if (dialogueList.Count > 0 && currentDialogue.Count <= 0)
-            currentDialogue.AddRange(dialogueList[0].dialogue);
+        {
+            UpdateLocalizedDialogue();
+        }
 
         if (!inDialogue)
         {
@@ -213,7 +244,7 @@ public class DialogueManager : MonoBehaviour
             SetCanDialoguePass(true);
             currentDialogue.Clear();
             currentDialogueIndex = 0;
-            currentDialogue.Add("Not enough souls");
+            currentDialogue.Add(enoughSoulsLocale.GetLocalizedString());
             NextDialogue();
 
             if (legendsManager.LegendIsRegistred(dialogueList[0].characterOwner))
@@ -252,14 +283,22 @@ public class DialogueManager : MonoBehaviour
             foreach (var dialogue in consequence.ConsequenceDialogues)
                 AddDialogue(dialogue);
         }
-        
+
         //Dialogue after awnser
-        if (consequence.DialogueAfterAwnser.Count > 0)
+        if(GetLocalized_NO_ConsequenceDialogue().Count > 0 && !isYes)
         {
             SetCanDialoguePass(true);
             currentDialogue.Clear();
             currentDialogueIndex = 0;
-            currentDialogue.AddRange(consequence.DialogueAfterAwnser);
+            currentDialogue.AddRange(GetLocalized_NO_ConsequenceDialogue());
+            NextDialogue();
+        }
+        if (GetLocalized_YES_ConsequenceDialogue().Count > 0 && isYes)
+        {
+            SetCanDialoguePass(true);
+            currentDialogue.Clear();
+            currentDialogueIndex = 0;
+            currentDialogue.AddRange(GetLocalized_YES_ConsequenceDialogue());
             NextDialogue();
         }
 
@@ -293,7 +332,7 @@ public class DialogueManager : MonoBehaviour
         legendsManager.KillLegend(dialogueList[0].characterOwner);
         RemoveDeadDialogues(dialogueList[0].characterOwner);
 
-        if (consequence.DialogueAfterAwnser.Count <= 0)
+        if (GetLocalized_NO_ConsequenceDialogue().Count <= 0 || GetLocalized_YES_ConsequenceDialogue().Count <= 0)
             EndDialogue();
 
         waitingForChoice = false;
@@ -383,6 +422,54 @@ public class DialogueManager : MonoBehaviour
         {
             waitingForChoice = true;
         }
+    }
+
+    private List<string> GetCurrentLocalizedDialogue()
+    {
+        List<string> localizedStrings = new List<string>();
+        StringTable table = (StringTable)dialogueList[0].dialogueTable.GetTable(LocalizationSettings.SelectedLocale.Identifier);
+        foreach (var entry in table.SharedData.Entries)
+        {
+            if (!entry.Key.Contains("YES", System.StringComparison.OrdinalIgnoreCase) && !entry.Key.Contains("NO", System.StringComparison.OrdinalIgnoreCase))
+            {
+                StringTableEntry tableEntry = table.GetEntry(entry.Id);
+                string localizedString = tableEntry.GetLocalizedString();
+                localizedStrings.Add(localizedString);
+            }
+        }
+        return localizedStrings;
+    }
+
+    private List<string> GetLocalized_YES_ConsequenceDialogue()
+    {
+        List<string> localizedStrings = new List<string>();
+        StringTable table = (StringTable)dialogueList[0].dialogueTable.GetTable(LocalizationSettings.SelectedLocale.Identifier);
+        foreach (var entry in table.SharedData.Entries)
+        {
+            if (entry.Key.Contains("YES", System.StringComparison.OrdinalIgnoreCase))
+            {
+                StringTableEntry tableEntry = table.GetEntry(entry.Id);
+                string localizedString = tableEntry.GetLocalizedString();
+                localizedStrings.Add(localizedString);
+            }
+        }
+        return localizedStrings;
+    }
+
+    private List<string> GetLocalized_NO_ConsequenceDialogue()
+    {
+        List<string> localizedStrings = new List<string>();
+        StringTable table = (StringTable)dialogueList[0].dialogueTable.GetTable(LocalizationSettings.SelectedLocale.Identifier);
+        foreach (var entry in table.SharedData.Entries)
+        {
+            if (entry.Key.Contains("NO", System.StringComparison.OrdinalIgnoreCase))
+            {
+                StringTableEntry tableEntry = table.GetEntry(entry.Id);
+                string localizedString = tableEntry.GetLocalizedString();
+                localizedStrings.Add(localizedString);
+            }
+        }
+        return localizedStrings;
     }
 
     private string GetCurrentDialogueLine()

@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Game/Character")]
 public class CharacterSO : ScriptableObject
 {
-    public Sprite characterIcon;
+    //public Sprite characterIcon;
     public Sprite characterSprite;
     public Color nameColor;
 

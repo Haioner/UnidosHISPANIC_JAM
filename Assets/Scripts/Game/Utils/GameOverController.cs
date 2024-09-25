@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.Localization;
 using UnityEngine.SceneManagement;
 
 public class GameOverController : MonoBehaviour
@@ -8,10 +9,18 @@ public class GameOverController : MonoBehaviour
     [SerializeField] private LegendsManager legendsManager;
     [SerializeField] private TextMeshProUGUI gameOverInfoTEXT;
 
+    [Header("String Localized")]
+    [SerializeField] private LocalizedString overPopulationLocale;
+    [SerializeField] private LocalizedString killLegendsLocale;
+    private string overPopulationString, killLegendsString;
+
     private void OnEnable()
     {
         legendsManager.onLegendDies += CheckLegends;
         LegendsManager.OnPopulationMax += OverPopulation;
+
+        overPopulationLocale.StringChanged += (localizedText) => { overPopulationString = localizedText; };
+        killLegendsLocale.StringChanged += (localizedText) => { killLegendsString = localizedText; };
     }
 
     private void OnDisable()
@@ -23,14 +32,14 @@ public class GameOverController : MonoBehaviour
 
     private void OverPopulation(object sender, System.EventArgs e)
     {
-        GameOver("World population has surpassed 20 billion, and all the legends have been hunted...");
+        GameOver(overPopulationString);
     }
 
     private void CheckLegends(int legendCount)
     {
         if(legendCount <= 0)
         {
-            GameOver("You killed all the legends...");
+            GameOver(killLegendsString);
         }
     }
 
