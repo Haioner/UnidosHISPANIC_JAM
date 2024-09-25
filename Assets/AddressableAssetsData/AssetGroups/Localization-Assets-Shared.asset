@@ -97,6 +97,136 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0e1827dc4298b74986f8790aff6b209
+    m_Address: Assets/Localization/Tables/La Ciguapa/LaCiguapa_HairTreatment Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb58fe1a287d5ae41a844c5c4dfd459b
+    m_Address: Assets/Localization/Tables/La Ciguapa/LaCiguapa_SweetHart Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d2a1d349c29a374c89e5cad3ba37d0b
+    m_Address: Assets/Localization/Tables/La Ciguapa/LaCiguapa_SawMan Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1831c032e27927b47b6a1cd821450937
+    m_Address: Assets/Localization/Tables/La Ciguapa/LaCiguapa_SpendSomeTime Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 114672e8c78848441b0e5538c3718506
+    m_Address: Assets/Localization/Tables/La Ciguapa/LaCiguapa_DarlingLittleFavor
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dea0721d4de8af147b3b68ce44b2b284
+    m_Address: Assets/Localization/Tables/El Silbon/ElSilbon_TookRevenge_Taxes Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05d7537db33b6194a90eca514d40b97f
+    m_Address: Assets/Localization/Tables/El Silbon/ElSilbon_Whistle Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a82442884d6afd46b30e048071648d1
+    m_Address: Assets/Localization/Tables/El Silbon/ElSilbon_CollectedSouls Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 525d723eda9dce24283d634d2878bce0
+    m_Address: Assets/Localization/Tables/El Silbon/ElSilbon_SoulRestLess Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d970e65db3fef143979e8a8e02f88f2
+    m_Address: Assets/Localization/Tables/El Silbon/ElSilbon_ConfusingMe Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9615fe49f4ba79c4e8b4eb3734cd9440
+    m_Address: Assets/Localization/Tables/El Silbon/ElSilbon_ImprovingMelody Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6969926d6067a464e849e99b0439e62f
+    m_Address: Assets/Localization/Tables/El Chupacabra/ElChupacabra_SomeFarms Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95b6a49719aac3047bddfc66c34d99be
+    m_Address: Assets/Localization/Tables/El Chupacabra/ElChupacabra_ThoseGoats Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4ac79fb735f4054aab9a03326b695b7
+    m_Address: Assets/Localization/Tables/El Chupacabra/ElChupacabra_SmellGoats Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84bb5c517a909f149827949ea6d36e55
+    m_Address: Assets/Localization/Tables/El Chupacabra/ElChupacabra_NeedFaster Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4f006f170f20dd43aae53f1062a9e64
+    m_Address: Assets/Localization/Tables/El Chupacabra/ElChupacabra_BiggerMouth
+      Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6834630dbf91dd4aa2a75a00867b20c
+    m_Address: Assets/Localization/Tables/El Chupacabra/ElChupacabra_SenseSmell Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0f50da45d4e89346b5331b15eefea77
+    m_Address: Assets/Localization/Tables/El Cadejo/ElCadejo_Scarier Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3d68268c14840144a485e9dff22c778
+    m_Address: Assets/Localization/Tables/El Cadejo/ElCadejo_BroughtOwed Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9982c1869aba1b84a9dc9453b4262b38
+    m_Address: Assets/Localization/Tables/El Cadejo/ElCadejo_HereSouls Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4fbb327e21c0fe4a827a1fbc07d67ad
+    m_Address: Assets/Localization/Tables/El Cadejo/ElCadejo_WhiteStronger Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d183cbd611de7c3478a0fd3d9e52e2bc
+    m_Address: Assets/Localization/Tables/El Cadejo/ElCadejo_GivePower Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc051198a641016469e283b25bf75d71
+    m_Address: Assets/Localization/Tables/El Cadejo/ElCadejo_SucculentSouls Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:

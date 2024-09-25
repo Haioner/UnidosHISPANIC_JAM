@@ -99,6 +99,144 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-pt-BR
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27e77a721274446489465283f8546b7c
+    m_Address: LaCiguapa_HairTreatment_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd0cf32a6d8b6564f8239b5c5732d803
+    m_Address: LaCiguapa_SweetHart_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 284ac9546be6a3c43a66556db3852537
+    m_Address: LaCiguapa_SawMan_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c02e2822b8374e449f7883baa3f1fad
+    m_Address: LaCiguapa_SpendSomeTime_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d4260e1614cb034eb74da06fa601fdc
+    m_Address: LaCiguapa_DarlingLittleFavor_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32eb3fb6c4c4b8846a9af82f591bc564
+    m_Address: ElSilbon_TookRevenge_Taxes_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3d2c1548c6f9364a8dd705035671ce1
+    m_Address: ElSilbon_Whistle_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9e10cf88321eef4d9ccd8c731f0df2c
+    m_Address: ElSilbon_CollectedSouls_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e03cdc121a6adfc4b9a6bcb2fe541723
+    m_Address: ElSilbon_SoulRestLess_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e89027ffab3c7f4c8a478a2488e0a89
+    m_Address: ElSilbon_ConfusingMe_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7abefb8f3bec1dd4babe5ae912d59911
+    m_Address: ElSilbon_ImprovingMelody_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 327fde2bd52180a45af9814922f6ce98
+    m_Address: ElChupacabra_SomeFarms_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74c71e59c030ffc40acebb4f9a72e43b
+    m_Address: ElChupacabra_ThoseGoats_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d6046184506e11408a2e1dbf23921d6
+    m_Address: ElChupacabra_SmellGoats_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6715956e19f0fc345810b58d2a64606a
+    m_Address: ElChupacabra_NeedFaster_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 177248cdc6610b04984153d661fbefc8
+    m_Address: ElChupacabra_BiggerMouth_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 184b9c40deaa0e94d9e149423c671b82
+    m_Address: ElChupacabra_SenseSmell_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37776e059042f4446a427099bdb8bd95
+    m_Address: ElCadejo_Scarier_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 343861684f522f84497a1a5e993520d2
+    m_Address: ElCadejo_BroughtOwed_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88972a85c54fd744993eeae50813c13b
+    m_Address: ElCadejo_HereSouls_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffb2156c74902544b9a26bff7cb5f4cf
+    m_Address: ElCadejo_WhiteStronger_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c04a305d5e6028f489a855bd2c31deee
+    m_Address: ElCadejo_GivePower_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e453fc5d5bbf9454da10c1592f0e2c3f
+    m_Address: ElCadejo_SucculentSouls_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:

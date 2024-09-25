@@ -22,7 +22,8 @@ MonoBehaviour:
     - Character: {fileID: 11400000, guid: 702734e3d67007044a61f84c106ea1ad, type: 2}
       Power: 0
       AcumulatedDeaths: 0
-    ConsequenceDialogues: []
+    ConsequenceDialogues:
+    - {fileID: 11400000, guid: d62dce9d160addd4bafc8901f36e95a9, type: 2}
     SoulsAmount: -100000
     ConsequenceEffector: []
   NO_AwnserConsequences:

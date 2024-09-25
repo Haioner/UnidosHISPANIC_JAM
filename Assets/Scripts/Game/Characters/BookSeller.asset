@@ -12,13 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93ffcd430f04cd348849b68169435448, type: 3}
   m_Name: BookSeller
   m_EditorClassIdentifier: 
-  characterIcon: {fileID: 0}
   characterSprite: {fileID: 7780953735995972703, guid: 215687feeab0b7445b4a1cd86c82c2e1, type: 3}
   nameColor: {r: 0.13333334, g: 0.54509807, b: 0.13333334, a: 1}
   DefaultStats:
     Character: {fileID: 0}
     Power: 1
     AcumulatedDeaths: 0
-  DefaultPriority: 100
+  DefaultPriority: 50
   firstDialogue: {fileID: 11400000, guid: 874f689cf7ecfe4408408f000966b57b, type: 2}
   defaultDialogues: []

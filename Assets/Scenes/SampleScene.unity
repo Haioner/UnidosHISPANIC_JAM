@@ -612,7 +612,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -140.83655, y: -15.932007}
+  m_AnchoredPosition: {x: -140.83643, y: -15.931885}
   m_SizeDelta: {x: 269.4731, y: 31.8631}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &198994195
@@ -1056,7 +1056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 28, y: -27.099976}
+  m_AnchoredPosition: {x: 28, y: -27.099854}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &312243245
@@ -1273,6 +1273,7 @@ MonoBehaviour:
   dialogueList:
   - {fileID: 11400000, guid: ae211435dfbf3b447b256f02eb492943, type: 2}
   currentDialogue: []
+  canDialogue: 1
   references:
     version: 2
     RefIds: []
@@ -10619,7 +10620,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 120.49, y: 112.44}
+  m_AnchoredPosition: {x: 120.490234, y: 112.44}
   m_SizeDelta: {x: 210.98, y: 495.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1485170935
@@ -10698,7 +10699,7 @@ MonoBehaviour:
   bookCount: 1
   souls: 0
   soulThreshold: 100000
-  populationMax: 20000000000
+  populationMax: 13000000000
   currentLegendsStats: []
   deadLegendsStats: []
 --- !u!4 &1499051766
@@ -11343,7 +11344,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 73, y: -27.099976}
+  m_AnchoredPosition: {x: 73, y: -27.099854}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1646358293
@@ -12701,7 +12702,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 120.48566, y: 122.43788}
+  m_AnchoredPosition: {x: 120.48584, y: 122.43799}
   m_SizeDelta: {x: 210.9713, y: 204.8759}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1993357013

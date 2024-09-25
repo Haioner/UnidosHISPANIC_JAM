@@ -63,7 +63,7 @@ public class LegendsManager : MonoBehaviour
             }
         }
 
-        UpdateSoulsCount();
+        //UpdateSoulsCount();
     }
 
     private IEnumerator SpawnJarsWithDelay()
@@ -122,7 +122,7 @@ public class LegendsManager : MonoBehaviour
             if (legend.Character == characterSO)
             {
                 //50% souls
-                float soulsCollected = legend.AcumulatedDeaths * 0.5f;
+                float soulsCollected = legend.AcumulatedDeaths * 0.1f;
                 SetSouls((long)soulsCollected);
                 legend.AcumulatedDeaths = 0;
                 FindFirstObjectByType<FloatNumberManager>().SpawnGainFloat("<sprite=1> " + NumberConverter.ConvertNumberToString(soulsCollected));

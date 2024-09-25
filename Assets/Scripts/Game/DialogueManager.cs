@@ -269,7 +269,23 @@ public class DialogueManager : MonoBehaviour
         AwnserConsequence consequence = isYes ? dialogueList[0].YES_AwnserConsequences : dialogueList[0].NO_AwnserConsequences;
 
         if (!EnoughSouls(consequence)) return;
-        
+
+        //Souls
+        DialogueFREESouls(!canDialoguePass);
+
+        long soulsAmount = consequence.SoulsAmount;
+
+        if (isYes)
+            soulsAmount = GetSoulPrice(consequence.SoulsAmount);
+
+        string additionalString = "";
+        if (soulsAmount < 0) additionalString = "<color=red> -";
+
+        if (soulsAmount != 0)
+            FindFirstObjectByType<FloatNumberManager>().
+                SpawnGainFloat("<sprite=1>" + additionalString + NumberConverter.ConvertNumberToString(Mathf.Abs(GetSoulPrice(consequence.SoulsAmount))));
+        legendsManager.SetSouls((long)soulsAmount);
+
         //Stats
         foreach (var stats in consequence.ConsequenceStats)
         {
@@ -310,22 +326,6 @@ public class DialogueManager : MonoBehaviour
                 Instantiate(effector);
             }
         }
-
-        //Souls
-        DialogueFREESouls(!canDialoguePass);
-
-        long soulsAmount = consequence.SoulsAmount;
-
-        if (isYes)
-            soulsAmount = GetSoulPrice(consequence.SoulsAmount);
-
-        string additionalString = "";
-        if (soulsAmount < 0) additionalString = "<color=red> -";
-
-        if (soulsAmount != 0)
-            FindFirstObjectByType<FloatNumberManager>().
-                SpawnGainFloat("<sprite=1>" + additionalString + NumberConverter.ConvertNumberToString(Mathf.Abs(GetSoulPrice(consequence.SoulsAmount))));
-        legendsManager.SetSouls((long)soulsAmount);
 
         //Update
         onGetStats?.Invoke(legendsManager.GetLegendStat(dialogueList[0].characterOwner));
