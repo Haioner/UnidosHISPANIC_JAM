@@ -15,6 +15,7 @@ public class LegendsManager : MonoBehaviour
     [SerializeField] private long souls = 100;
     [SerializeField] private long soulThreshold = 100000;
     [SerializeField] private long populationMax = 20000000000;
+    [SerializeField] private AudioClip soulClip;
     private int jarCount = 0;
     private float soulsAccumulated = 0f;
 
@@ -48,7 +49,7 @@ public class LegendsManager : MonoBehaviour
         if (amount > 0)
         {
             soulsAccumulated += amount;
-
+            SoundManager.PlayAudioClip(soulClip);
             StartCoroutine(SpawnJarsWithDelay());
         }
         else
@@ -122,7 +123,7 @@ public class LegendsManager : MonoBehaviour
             if (legend.Character == characterSO)
             {
                 //50% souls
-                float soulsCollected = legend.AcumulatedDeaths * 0.1f;
+                float soulsCollected = legend.AcumulatedDeaths * 0.125f;
                 SetSouls((long)soulsCollected);
                 legend.AcumulatedDeaths = 0;
                 FindFirstObjectByType<FloatNumberManager>().SpawnGainFloat("<sprite=1> " + NumberConverter.ConvertNumberToString(soulsCollected));

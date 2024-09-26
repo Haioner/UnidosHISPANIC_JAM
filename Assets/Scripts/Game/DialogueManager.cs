@@ -18,6 +18,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI dialogueCountTEXT;
     [SerializeField] private LegendsManager legendsManager;
     [SerializeField] private Transform npcTransform;
+    [SerializeField] private AudioClip dialogueClip, yesClip, noClip, paperFlip;
 
     [Header("String Localized")]
     [SerializeField] private LocalizedString pageLocale;
@@ -76,12 +77,14 @@ public class DialogueManager : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.Y))
             {
+                SoundManager.PlayAudioClip(yesClip);
                 ApplyConsequence(true);
                 yesDOT.DORestart();
             }
             
             if (Input.GetKeyDown(KeyCode.N))
             {
+                SoundManager.PlayAudioClip(noClip);
                 ApplyConsequence(false);
                 noDOT.DORestart();
             }
@@ -200,12 +203,13 @@ public class DialogueManager : MonoBehaviour
             UpdateLocalizedDialogue();
         }
 
+        //Start dialogue
         if (!inDialogue)
         {
             if (dialogueList[0].isTaxes)
                 legendsManager.CalculateLegendDeaths(GetDialogueCharacter());
 
-
+            SoundManager.PlayAudioClip(paperFlip);
             CountPages();
             OnDialogueStart?.Invoke(this, System.EventArgs.Empty);
             inDialogue = true;
@@ -393,6 +397,7 @@ public class DialogueManager : MonoBehaviour
         dialogueHolder.SetActive(false);
         inDialogue = false;
         OnDialogueEND?.Invoke(this, System.EventArgs.Empty);
+        SoundManager.StopLoopClip();
 
         if (lastDialogue != null)
         {
@@ -404,13 +409,14 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueHolder.SetActive(true);
         onGetStats?.Invoke(legendsManager.GetLegendStat(dialogueList[0].characterOwner));
-
         isTyping = true;
         foreach (char letter in dialogue.ToCharArray())
         {
+            SoundManager.PlayLoopClip(dialogueClip);
             dialogueText.text += letter;
             yield return new WaitForSeconds(typeSpeed);
         }
+        SoundManager.StopLoopClip();
 
         isTyping = false;
         currentDialogueIndex++;

@@ -6,8 +6,11 @@ public class NPCManager : MonoBehaviour
     [SerializeField] private DialogueManager dialogueManager;
     [SerializeField] private LegendsManager legendsManager;
     [SerializeField] private StatsCanvas statsCanvas;
+
+    [Header("Death")]
     [SerializeField] private ParticleSystem deathParticle;
     [SerializeField] private GameObject[] deathDeactiveObjects;
+    [SerializeField] private AudioClip deathClip;
 
     private void OnEnable()
     {
@@ -26,6 +29,7 @@ public class NPCManager : MonoBehaviour
         {
             item.SetActive(false);
         }
+        SoundManager.PlayAudioClip(deathClip);
         Instantiate(deathParticle, transform.position, Quaternion.identity);
         gfxRenderer.sprite = null;
     }
