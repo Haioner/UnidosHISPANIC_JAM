@@ -10,24 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f6e21445f226d8498654b4510aa6c5f, type: 3}
-  m_Name: BookSeller
+  m_Name: Demon Seller_BOOK
   m_EditorClassIdentifier: 
   characterOwner: {fileID: 11400000, guid: 696e1ad1cdbef554e91def7886162fc4, type: 2}
   FreeSouls_END: 0
   isTaxes: 0
   needAwnser: 1
-  dialogueTable: {fileID: 0}
-  dialogue:
-  - You want to buy a book?
+  dialogueTable: {fileID: 11400000, guid: ead2daeb965543441ba83b99da272bd0, type: 2}
   YES_AwnserConsequences:
-    DialogueAfterAwnser: []
     ConsequenceStats: []
     ConsequenceDialogues: []
-    SoulsAmount: -1000000
+    SoulsAmount: -5000000
     ConsequenceEffector:
     - {fileID: 3084465730414769644, guid: 5aa7042ca4d8d69419a0d399509eebea, type: 3}
   NO_AwnserConsequences:
-    DialogueAfterAwnser: []
     ConsequenceStats: []
     ConsequenceDialogues: []
     SoulsAmount: 0

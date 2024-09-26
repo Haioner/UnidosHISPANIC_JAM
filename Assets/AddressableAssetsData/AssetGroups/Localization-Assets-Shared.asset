@@ -227,6 +227,79 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a434cf1f77086d4e91ba117b8fc4e23
+    m_Address: Assets/Localization/Tables/Demon Seller/DemonSeller_MeetYou Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de4f183e93179a04aaea0f4926ba56a8
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_Pleasure Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08a8a525f25f25e4981558d7fda8c639
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_LovedStory Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71d83cb656edb6841afba7e04fd87176
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_GatheredSouls Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d09cbe663feaca4448328e4a8f5fde13
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_KaTcham Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88a2aebb8c3a9de4b8a87ad2faf4b5ab
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_WomenAfraid Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fb5a80cf089b27498fa18c575f6a3f1
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_HusbandsBlaming Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02ff1e6c703be7d4c99c2f0bc233ea14
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_ClingyOnes Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8905357a5fa691946974e1bb3cb250d2
+    m_Address: Assets/Localization/Tables/Cuca/Cuca_Taste Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c788f86bbc3f00042ad5425965e0a336
+    m_Address: Assets/Localization/Tables/Cuca/Cuca_DisobedientChildren Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64a4b844b97e6434f84d2e0932289d78
+    m_Address: Assets/Localization/Tables/Cuca/Cuca_ChildrenForgetting Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9d586516e7a41345a04084a256a74b7
+    m_Address: Assets/Localization/Tables/Cuca/Cuca_BlondeHair Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08a25240d72772740921360b9bdb7563
+    m_Address: Assets/Localization/Tables/Cuca/Cuca_EatChild Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e80dcf5fdb4e774d8a3556a3301e604
+    m_Address: Assets/Localization/Tables/Cuca/Cuca_SillyThing Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:

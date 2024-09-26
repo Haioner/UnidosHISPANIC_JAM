@@ -18,7 +18,7 @@ MonoBehaviour:
     Character: {fileID: 0}
     Power: 1
     AcumulatedDeaths: 0
-  DefaultPriority: 18
+  DefaultPriority: 10
   firstDialogue: {fileID: 11400000, guid: e30fb4fb555c696479d0fd221df5e67a, type: 2}
   defaultDialogues:
   - {fileID: 11400000, guid: 1c3dbb1863cb419419f026944f852483, type: 2}

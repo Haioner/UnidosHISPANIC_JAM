@@ -237,6 +237,90 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-pt-BR
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e57a088298e7b847a740bf648df1eb1
+    m_Address: DemonSeller_BOOK_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 472e0f818d0f37f41ae4808371a475e1
+    m_Address: BotoRosa_FirstDialogue_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67ba9760e6f09714f8d963811103947a
+    m_Address: BotoRosa_LovedStory_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c82eb6eb636d8ab41aa5f8086d1dd18d
+    m_Address: BotoRosa_GatheredSouls_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 505bfd259bdd99e49aafb41640d08cbe
+    m_Address: BotoRosa_KaTcham_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 515936b53042704439ea5b8a913a8182
+    m_Address: BotoRosa_WomenAfraid_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79df92b8d9193674cb9e8770ec1521e3
+    m_Address: BotoRosa_HusbandsBlaming_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53b70a228f124fd4baabaf3757e1c74a
+    m_Address: BotoRosa_ClingyOnes_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2c231d3bd5ef4541bf0eada2fbe6ec4
+    m_Address: Cuca_FirstDialogue_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72ac771172f250f48be5c5655723cbe8
+    m_Address: Cuca_DisobedientChildren_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ddb5b1a16ece64429bd8e7f08de28e2
+    m_Address: Cuca_ChildrenForgetting_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae40e743a9a3ea540935b67accbb5139
+    m_Address: Cuca_BlondeHair_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a26e8ebe97d54f04dbfe1f57fd2a0fce
+    m_Address: Cuca_EatChild_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4fca616b58dcba4fbf09e57db09621b
+    m_Address: Cuca_SillyThing_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:

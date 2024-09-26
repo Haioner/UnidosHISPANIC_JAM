@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93ffcd430f04cd348849b68169435448, type: 3}
+  m_Name: Cuca
+  m_EditorClassIdentifier: 
+  characterSprite: {fileID: 21300000, guid: 5a4a815b7e478874a9de46a8ba2409b2, type: 3}
+  nameColor: {r: 0.13333334, g: 0.54509807, b: 0.13333334, a: 1}
+  DefaultStats:
+    Character: {fileID: 0}
+    Power: 1
+    AcumulatedDeaths: 0
+  DefaultPriority: 10
+  firstDialogue: {fileID: 11400000, guid: 1b1865d7b97e17142bfb4d7d0cd20053, type: 2}
+  defaultDialogues:
+  - {fileID: 11400000, guid: 725baf1d12d2eb9459c3cba9769438ca, type: 2}
+  - {fileID: 11400000, guid: b681e5198551dc149932defb59538213, type: 2}
+  - {fileID: 11400000, guid: 8487dc9ad246f3c4faf89f14c47290c4, type: 2}
+  - {fileID: 11400000, guid: 5335f4a8c3e5da641975b7e5f4534345, type: 2}
+  - {fileID: 11400000, guid: 959d9b45a164a7a498ccfaae0a6c09d7, type: 2}
