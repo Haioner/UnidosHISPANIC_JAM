@@ -612,7 +612,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -140.83643, y: -15.931885}
+  m_AnchoredPosition: {x: -140.83691, y: -15.931641}
   m_SizeDelta: {x: 269.4731, y: 31.8631}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &198994195
@@ -1033,7 +1033,7 @@ GameObject:
   - component: {fileID: 312243247}
   - component: {fileID: 312243245}
   m_Layer: 5
-  m_Name: Info_Button
+  m_Name: HowToPlay_BUTTON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1056,7 +1056,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 28, y: -27.099854}
+  m_AnchoredPosition: {x: 28, y: -27.09961}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &312243245
@@ -3641,7 +3641,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -222.00046, y: 91.733154}
+  m_AnchoredPosition: {x: -222, y: 91.7334}
   m_SizeDelta: {x: 286.02893, y: 51.46631}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &874700109
@@ -4663,6 +4663,11 @@ MonoBehaviour:
   dialogueManager: {fileID: 343838673}
   legendsManager: {fileID: 1499051765}
   statsCanvas: {fileID: 1062448720}
+  deathParticle: {fileID: 2746272768969351950, guid: 809bec7b7911a2748bd005b8830d714a, type: 3}
+  deathDeactiveObjects:
+  - {fileID: 699567935}
+  - {fileID: 1547544879}
+  - {fileID: 1862192769}
 --- !u!1 &1084780890
 GameObject:
   m_ObjectHideFlags: 0
@@ -5188,6 +5193,53 @@ MonoBehaviour:
   references:
     version: 2
     RefIds: []
+--- !u!1 &1110846733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1110846734}
+  - component: {fileID: 1110846735}
+  m_Layer: 0
+  m_Name: PictureManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1110846734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110846733}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.91, y: 0.01, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1110846735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110846733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627e60891360c464795d6a09eb19f30e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pictureItem: {fileID: 2318793472669289429, guid: d9762696196a4f349a14e647a3f76b44, type: 3}
+  currentCharacterList: []
+  currentPicturesList: []
 --- !u!1 &1129435139
 GameObject:
   m_ObjectHideFlags: 0
@@ -10728,7 +10780,7 @@ GameObject:
   - component: {fileID: 1518295144}
   - component: {fileID: 1518295145}
   m_Layer: 5
-  m_Name: ToolTip
+  m_Name: ToolTipManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11321,7 +11373,7 @@ GameObject:
   - component: {fileID: 1646358293}
   - component: {fileID: 1646358296}
   m_Layer: 5
-  m_Name: LanguageButton
+  m_Name: Language_BUTTON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11344,7 +11396,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 73, y: -27.099854}
+  m_AnchoredPosition: {x: 73, y: -27.09961}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1646358293
@@ -12702,7 +12754,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 120.48584, y: 122.43799}
+  m_AnchoredPosition: {x: 120.48535, y: 122.43799}
   m_SizeDelta: {x: 210.9713, y: 204.8759}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1993357013
@@ -13366,3 +13418,4 @@ SceneRoots:
   - {fileID: 1062448717}
   - {fileID: 778618397}
   - {fileID: 960062015}
+  - {fileID: 1110846734}

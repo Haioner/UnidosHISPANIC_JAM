@@ -194,6 +194,7 @@ public class LegendsManager : MonoBehaviour
         };
 
         currentLegendsStats.Add(newStats);
+        FindFirstObjectByType<PictureManager>().SpawnPicture(legendStats.Character);
         FindFirstObjectByType<FloatNumberManager>().SpawnGainFloat("<sprite=2> 1");
         UpdateLegendsCount();
     }
@@ -232,6 +233,7 @@ public class LegendsManager : MonoBehaviour
                 if (characterStats.Power <= 0)
                 {
                     RemoveCharacter(characterSO, characterStats);
+                    FindFirstObjectByType<PictureManager>().RemovePicture(characterSO);
                     FindFirstObjectByType<FloatNumberManager>().SpawnGainFloat("<sprite=2><color=red> -1");
                     onLegendDies?.Invoke(currentLegendsStats.Count);
                 }

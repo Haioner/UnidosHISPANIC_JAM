@@ -54,7 +54,7 @@ public class DialogueManager : MonoBehaviour
     private void Update()
     {
         if (!canDialogue) return;
-        if (dialogueList.Count <= 0) return;
+        //if (dialogueList.Count <= 0) return;
         StartDefaultDialogues();
 
         if (IsLastDialogueLine() && canDialoguePass && Input.anyKeyDown)
@@ -100,7 +100,7 @@ public class DialogueManager : MonoBehaviour
 
     private void StartDefaultDialogues()
     {
-        if(dialogueList.Count <= 1 && legendsManager.currentLegendsStats.Count > 0)
+        if(dialogueList.Count <= 2 && legendsManager.currentLegendsStats.Count > 0)
         {
             int randLegend = Random.Range(0, legendsManager.currentLegendsStats.Count);
             int randDialogue = Random.Range(0, legendsManager.currentLegendsStats[randLegend].Character.defaultDialogues.Count);
@@ -140,15 +140,12 @@ public class DialogueManager : MonoBehaviour
                     dialogueList.RemoveAt(i);
                 }
             }
+            currentDialogueIndex = 0;
         }
     }
 
     private long GetSoulPrice(long soulAmount)
     {
-        //if (legendsManager.GetSoulsAmount() > Mathf.Abs(soulAmount) * 2 && soulAmount != 0)
-        //    return (long)(soulAmount + (-legendsManager.GetSoulsAmount() * 0.6f));
-        //else
-        //    return soulAmount;
         return (long)(soulAmount * legendsManager.GetLegendStat(dialogueList[0].characterOwner).Power);
     }
 
@@ -293,6 +290,17 @@ public class DialogueManager : MonoBehaviour
             PowerFloatNumber(stats);
         }
 
+        //Kill
+        onGetStats?.Invoke(legendsManager.GetLegendStat(dialogueList[0].characterOwner));
+        legendsManager.KillLegend(dialogueList[0].characterOwner);
+
+        if (legendsManager.LegendIsDead(dialogueList[0].characterOwner))
+        {
+            RemoveDeadDialogues(dialogueList[0].characterOwner);
+            EndDialogue();
+            return;
+        }
+
         //Add Dialogues ballons
         if (consequence.ConsequenceDialogues.Count > 0)
         {
@@ -327,13 +335,19 @@ public class DialogueManager : MonoBehaviour
             }
         }
 
-        //Update
-        onGetStats?.Invoke(legendsManager.GetLegendStat(dialogueList[0].characterOwner));
-        legendsManager.KillLegend(dialogueList[0].characterOwner);
-        RemoveDeadDialogues(dialogueList[0].characterOwner);
-
-        if (GetLocalized_NO_ConsequenceDialogue().Count <= 0 || GetLocalized_YES_ConsequenceDialogue().Count <= 0)
+        //End on die
+        if (IsLastDialogueLine())
             EndDialogue();
+        //onGetStats?.Invoke(legendsManager.GetLegendStat(dialogueList[0].characterOwner));
+        //legendsManager.KillLegend(dialogueList[0].characterOwner);
+
+        //if (legendsManager.LegendIsDead(dialogueList[0].characterOwner))
+        //{
+        //    RemoveDeadDialogues(dialogueList[0].characterOwner);
+        //    EndDialogue();
+        //}
+        //else if (GetLocalized_NO_ConsequenceDialogue().Count <= 0 || GetLocalized_YES_ConsequenceDialogue().Count <= 0)
+        //    EndDialogue();
 
         waitingForChoice = false;
     }
