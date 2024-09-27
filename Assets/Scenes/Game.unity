@@ -11089,7 +11089,7 @@ MonoBehaviour:
   souls: 0
   soulThreshold: 100000
   bookLimit: 5
-  populationMax: 13000000000
+  populationMax: 15000000000
   soulClip: {fileID: 8300000, guid: cae48b0426643984ab9e2aeeff9d32ba, type: 3}
   currentLegendsStats: []
   deadLegendsStats: []

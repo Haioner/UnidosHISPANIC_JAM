@@ -19,18 +19,14 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 16462647296
-    m_Localized: Helloo, so can you give me a powerful story?
+    m_Localized: Helloo, so it's you can give me a powerful story? What juiicy news!
     m_Metadata:
       m_Items: []
   - m_Id: 22603108352
-    m_Localized: What juiicy news!
-    m_Metadata:
-      m_Items: []
-  - m_Id: 25555898368
     m_Localized: Hmm, I can already taste the mouths of ill-mannered children...
     m_Metadata:
       m_Items: []
-  - m_Id: 29213331456
+  - m_Id: 25555898368
     m_Localized: Soo, can you help me?
     m_Metadata:
       m_Items: []

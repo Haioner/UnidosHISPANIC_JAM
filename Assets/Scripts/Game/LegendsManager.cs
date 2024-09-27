@@ -51,7 +51,8 @@ public class LegendsManager : MonoBehaviour
 		{
 			soulsAccumulated += amount;
 			SoundManager.PlayAudioClip(soulClip);
-			StartCoroutine(SpawnJarsWithDelay());
+			if (jarCount < 35)
+				StartCoroutine(SpawnJarsWithDelay());
 		}
 		else
 		{
@@ -64,8 +65,6 @@ public class LegendsManager : MonoBehaviour
 				jarCount--;
 			}
 		}
-
-		//UpdateSoulsCount();
 	}
 
 	private IEnumerator SpawnJarsWithDelay()
@@ -102,8 +101,8 @@ public class LegendsManager : MonoBehaviour
 
 	private void CalculatePopulationBirthAndDeath()
 	{
-		float maxRange = population * 0.00084f; //8bi population = 6 mi/month
-		float minRange = maxRange * 0.5f; // 50% of 6mi = 3mi
+		float maxRange = population * 0.004f; //8bi population = 32 mi/month
+		float minRange = maxRange * 0.5f; // 50% of 32mi = 16mi
 		long randomBirths = (long)Random.Range(minRange, maxRange);
 		population += randomBirths;
 

@@ -162,8 +162,10 @@ public class DialogueManager : MonoBehaviour
 
 	private long GetSoulPrice(long soulAmount)
 	{
-		return (long)(soulAmount * legendsManager.GetLegendStat(dialogueList[0].characterOwner).Power);
-	}
+        //return (long)(soulAmount * legendsManager.GetLegendStat(dialogueList[0].characterOwner).Power);
+        float power = legendsManager.GetLegendStat(dialogueList[0].characterOwner).Power;
+        return (long)(soulAmount * System.Math.Pow(power, 2));
+    }
 
 	private void SetPriceText()
 	{

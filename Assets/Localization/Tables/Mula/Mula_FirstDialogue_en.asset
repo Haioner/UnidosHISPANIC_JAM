@@ -28,15 +28,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 22057848832
-    m_Localized: "That priest told me he wouldn\u2019t tell anyone."
+    m_Localized: "That priest told me he wouldn\u2019t tell anyone. Now I\u2019m
+      the one who\u2019s cursed and he\u2019s out there, living normally."
     m_Metadata:
       m_Items: []
   - m_Id: 36821798912
-    m_Localized: "Now I\u2019m the one who\u2019s cursed and he\u2019s out there,
-      living normally."
-    m_Metadata:
-      m_Items: []
-  - m_Id: 40848330752
     m_Localized: Spread my story so everyone knows the priest is also to blame!
     m_Metadata:
       m_Items: []

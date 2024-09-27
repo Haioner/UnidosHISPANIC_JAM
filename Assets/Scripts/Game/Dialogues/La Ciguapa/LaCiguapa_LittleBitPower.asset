@@ -16,14 +16,14 @@ MonoBehaviour:
   FreeSouls_END: 0
   isTaxes: 0
   needAwnser: 1
-  dialogueTable: {fileID: 11400000, guid: 769001ff4254fe44d8ddb4d17cc0c26f, type: 2}
+  dialogueTable: {fileID: 11400000, guid: 3bd5cce291fe29b4aa01882536873e63, type: 2}
   YES_AwnserConsequences:
     ConsequenceStats:
     - Character: {fileID: 11400000, guid: d29e1ccc17afcfa41a6d9e51a89c4d64, type: 2}
       Power: 1
       AcumulatedDeaths: 0
     ConsequenceDialogues: []
-    SoulsAmount: -30000
+    SoulsAmount: -46000
     ConsequenceEffector: []
   NO_AwnserConsequences:
     ConsequenceStats: []

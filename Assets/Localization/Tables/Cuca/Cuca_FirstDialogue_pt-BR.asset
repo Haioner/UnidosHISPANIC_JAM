@@ -19,18 +19,15 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 16462647296
-    m_Localized: "Ool\xE1\xE1, ent\xE3o voc\xEA pode me dar uma hist\xF3ria poderosa?"
+    m_Localized: "Ool\xE1\xE1, ent\xE3o \xE9 voc\xEA que pode me dar uma hist\xF3ria
+      poderosa? Que not\xEDcia suculeenta!"
     m_Metadata:
       m_Items: []
   - m_Id: 22603108352
-    m_Localized: "Que not\xEDcia suculeenta!"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 25555898368
     m_Localized: "Hmm, j\xE1 sinto \xE1gua na boca de crian\xE7as mal-educadas..."
     m_Metadata:
       m_Items: []
-  - m_Id: 29213331456
+  - m_Id: 25555898368
     m_Localized: "Ent\xE3oo, voc\xEA pode me ajudar?"
     m_Metadata:
       m_Items: []

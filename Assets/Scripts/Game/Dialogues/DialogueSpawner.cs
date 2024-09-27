@@ -37,7 +37,7 @@ public class DialogueSpawner : MonoBehaviour
 		{
 			CharacterPriority newCharacterPriority = new CharacterPriority();
 			newCharacterPriority.characterSO = character;
-			newCharacterPriority.CurrentPriority = RandomPriority(character.DefaultPriority);
+			newCharacterPriority.CurrentPriority = RandomPriority(character);
 
 			characterPriorityList.Add(newCharacterPriority);
 		}
@@ -58,17 +58,22 @@ public class DialogueSpawner : MonoBehaviour
 
 			if (characterPriority.CurrentPriority <= 0)
 			{
-				characterPriority.CurrentPriority = RandomPriority(characterPriority.characterSO.DefaultPriority);
+				characterPriority.CurrentPriority = RandomPriority(characterPriority.characterSO);
 
-				if (legendsManager.HaveBookSpace(characterPriority.characterSO))
+				if (legendsManager.HaveBookSpace(characterPriority.characterSO) || characterPriority.characterSO.nomadic)
 					AddCharacterDialogue(characterPriority);
 			}
 		}
 	}
 
-	private int RandomPriority(int defaultPriority)
+	private int RandomPriority(CharacterSO character)
 	{
-		return Random.Range(defaultPriority / 3, defaultPriority);
+		int dividerValue = 3;
+
+		if (legendsManager.LegendIsRegistred(character))
+			dividerValue = 4;
+
+		return Random.Range(character.DefaultPriority / dividerValue, character.DefaultPriority);
 	}
 
 	private void PreserveDialogues()

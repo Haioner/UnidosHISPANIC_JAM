@@ -15,7 +15,7 @@ MonoBehaviour:
   characterOwner: {fileID: 11400000, guid: a2c5163b00c09454ca1f5ed25a6dbeda, type: 2}
   FreeSouls_END: 0
   isTaxes: 0
-  needAwnser: 0
+  needAwnser: 1
   dialogueTable: {fileID: 11400000, guid: d8b17ba244c9d9a46b3e9ea495b82b04, type: 2}
   YES_AwnserConsequences:
     ConsequenceStats:
