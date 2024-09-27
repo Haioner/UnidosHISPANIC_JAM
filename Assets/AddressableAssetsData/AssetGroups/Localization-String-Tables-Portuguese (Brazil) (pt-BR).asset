@@ -435,6 +435,258 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-pt-BR
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04abe5fae04365640ba17368f6794b41
+    m_Address: BotoRosa_Transformation_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 992d92c29aea70d448bcc47132fa8243
+    m_Address: BotoRosa_BeautifulLady_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 091df9cf110370646ac1d7545809a2b4
+    m_Address: BotoRosa_Fools_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a445d212c95f4c4da3e1758fd420163
+    m_Address: BotoRosa_Irresistible_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38968eaa7edb3b340890ac91b55fae9f
+    m_Address: BotoRosa_Millionaire_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbdfcdbb2642d58469c2ed34df8c1d4c
+    m_Address: BotoRosa_CharmingVoice_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e058cc15af0cad3449741291866e68fa
+    m_Address: BotoRosa_Stuck_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84f969e70ae048645803089118baf377
+    m_Address: BotoRosa_FeelingGenerous_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d73e1db4422d6e549ba91120603e8a2f
+    m_Address: BotoRosa_WhatIf_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68bf3c59cdc52bd4990cf52c4f618d15
+    m_Address: BotoRosa_FallingInLove_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1714dbb075a59624fa305e8749610921
+    m_Address: BotoRosa_Reinforce_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02a5fbb2cadf24d43b5b0c09dd2dea5a
+    m_Address: Cuca_ComingToTake_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84e176e18f6a23547b42be4bafb232ac
+    m_Address: Cuca_Disobedient_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30011778b56cd91489f0d6c7b33ae960
+    m_Address: Cuca_MoreStory_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74bcbb6db5563e64fb28070ae24bea1a
+    m_Address: Cuca_HelpPower_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0093b9f6e1f47742afcd7c063522500
+    m_Address: Cuca_Sneakier_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7a8b966a7ca22c48a093b44c0cedd22
+    m_Address: Cuca_FewSouls_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74f0cc160094ec8408ca70d1db481088
+    m_Address: Cuca_BeingTold_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85b87e258b6ee3240aaaaca878313d7c
+    m_Address: Cuca_FitMore_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7982c8923170758408273942ebc9f166
+    m_Address: Cuca_BehavedKids_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31da42c1f3e86814a9d48a6e44dd967f
+    m_Address: Cuca_LittlePrettier_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e1cba857d4727e4f82e2e94c075b465
+    m_Address: Curupira_TurnInto_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad7589ba83067824f9783e001b9547db
+    m_Address: Curupira_LoggersSoul_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ad1c7f7932ec3c4cb6f64614a4bbc19
+    m_Address: Curupira_DestroyedForest_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f5168c16869c804fb14f971b199c4a6
+    m_Address: Curupira_RiverRisen_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2151bf67fdc0c7a42bd9e159642401ac
+    m_Address: Curupira_VinesTouch_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a53a77a4e5f9074f8b01314c1f11c64
+    m_Address: Curupira_CollectedRecently_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37cac7f839d92ba47b5c83165afd184e
+    m_Address: Curupira_FastArrow_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cedf6001619f5324b9212c0bf5241b58
+    m_Address: Curupira_HuntersAppearing_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6eba16d1083d49d46bec4bc6c4bce49b
+    m_Address: Curupira_Vision_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbf8198a29c584e43b442fd219d08457
+    m_Address: Curupira_Deal_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41a030b36d2e52341b6e7fd1a43f1233
+    m_Address: Curupira_DealTaxes_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba35bc1197b77854ab852af4b0e11a57
+    m_Address: Cadejo_TwiceSize_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 291133a706dbaea4d8717f0f18f9c6aa
+    m_Address: Cadejo_Idiot_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4258d55b27953a4faa143a50ad07f16
+    m_Address: Cadejo_Nowadays_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae7cd41d613193f458103a1b425b7130
+    m_Address: Cadejo_AppearShadows_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5dcf95a9b2589e4cb236e6da524bd97
+    m_Address: Cadejo_GettingWeak_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a48c34360830084c9ce4b009155d81a
+    m_Address: Cadejo_WorldImmoral_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3015bb45dc42fb43bbf6ff0754dc688
+    m_Address: Cadejo_Terrifying_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7948e26d63d616a419623876a2749d8c
+    m_Address: Cadejo_Nowhere_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f1f9947b5e65cc498bd0dfe11fc8f6e
+    m_Address: Cadejo_DeliciousSouls_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33d450fefc7aac9478fab5a3b70035f8
+    m_Address: Cadejo_AttractiveSoul_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:

@@ -435,6 +435,258 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9e1bbe04252d604492e889e5a41cfef
+    m_Address: BotoRosa_Transformation_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52e559ff18e99e748a445ac04e3a1484
+    m_Address: BotoRosa_BeautifulLady_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6925b239c8d08ee4fb704cd2c0c435bd
+    m_Address: BotoRosa_Fools_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa19ba33b825e00418f9e1ecb5a1aa61
+    m_Address: BotoRosa_Irresistible_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab138ba5ffe443f4580b75fd35665776
+    m_Address: BotoRosa_Millionaire_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db786a3d96fdd85449bb5b5a4681b021
+    m_Address: BotoRosa_CharmingVoice_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8c662d6c01c34645922d27706d9ca26
+    m_Address: BotoRosa_Stuck_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 482ecfa09071fa94a84a87d07d476b9f
+    m_Address: BotoRosa_FeelingGenerous_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec4931365002f95499fb6bd440d7bcc2
+    m_Address: BotoRosa_WhatIf_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ee9f38922b0bfc42afa54c0c9b6629a
+    m_Address: BotoRosa_FallingInLove_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bc9454cc12f5754bac4de878dc1f7c8
+    m_Address: BotoRosa_Reinforce_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96cfd7ac27835be4b89056efff014975
+    m_Address: Cuca_ComingToTake_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ea8c636361386b4eb0416049ad645c8
+    m_Address: Cuca_Disobedient_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a00c0df54e05f4f4e80f6147909ed35a
+    m_Address: Cuca_MoreStory_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ceb7e659e26dfd488ec6af6880db23b
+    m_Address: Cuca_HelpPower_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75ee11c634b58f842aff63cd10f854af
+    m_Address: Cuca_Sneakier_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c155339401871d24a8796c2e6e006d0e
+    m_Address: Cuca_FewSouls_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 028a6b6abe58ced49b2629f2dce5e4ac
+    m_Address: Cuca_BeingTold_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 746d64903865f8a40a66d1a64933ffb4
+    m_Address: Cuca_FitMore_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2f5d83eb66a3354792cbd8eca14214b
+    m_Address: Cuca_BehavedKids_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88a797894672c00489c2ad730b116234
+    m_Address: Cuca_LittlePrettier_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 518194cc97c167f43b1bb45657becf1b
+    m_Address: Curupira_TurnInto_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89ab3ae9ef59e8646b3e60427cc7a561
+    m_Address: Curupira_LoggersSoul_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 088505446de30e74d888ae8990109585
+    m_Address: Curupira_DestroyedForest_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00a42ba2a67ea024e9d4a915739ffdf3
+    m_Address: Curupira_RiverRisen_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a6b41edde1983842953774ac42f5112
+    m_Address: Curupira_VinesTouch_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 758a5ae8293295844a1a933c3ed556ff
+    m_Address: Curupira_CollectedRecently_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13806c8909bb44c4e89470034329e4de
+    m_Address: Curupira_FastArrow_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47705519b21f5ad40bae579a204f71d5
+    m_Address: Curupira_HuntersAppearing_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f311fbb6af28e774aa716186bf5c94d0
+    m_Address: Curupira_Vision_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91d1b2c3a442463499b6de4fb8f2fd90
+    m_Address: Curupira_Deal_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb746c10ee0791349807725927acc7cb
+    m_Address: Curupira_DealTaxes_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26a7a5aaf9fd7134c9db4966e3fa9240
+    m_Address: Cadejo_TwiceSize_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eabf262f207383b4fad503e7f3c5f33d
+    m_Address: Cadejo_Idiot_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ba633daafe2b6441bd91f5cb31f6aa9
+    m_Address: Cadejo_Nowadays_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b0a089f9bd3b06488cb62a22ffa4aea
+    m_Address: Cadejo_AppearShadows_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa4d3adf3ff57d345b7a06f5a059597d
+    m_Address: Cadejo_GettingWeak_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b723ca4daae4edc4499f3c2f81bdceba
+    m_Address: Cadejo_WorldImmoral_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bf74fc1d85f3054c81e6d698948b56d
+    m_Address: Cadejo_Terrifying_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc35f41fddc97b04f96fad66e2b1e99d
+    m_Address: Cadejo_Nowhere_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07d0dd87ed864734281e3d6f73e603b8
+    m_Address: Cadejo_DeliciousSouls_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f75998023dd09a4438bd1951003e5f19
+    m_Address: Cadejo_AttractiveSoul_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: BotoRosa_FallingInLove_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: 88fb7b73d9290b948873d0bf560bd740, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7860129792
+    m_Localized: Eu quase me apaixonei ontem... olha...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10569650176
+    m_Localized: "Mas n\xE3o. Haha, foi moment\xE2neo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13564383232
+    m_Localized: "Mas, por precau\xE7\xE3o, refor\xE7a essa parte a\xED de eu n\xE3o
+      me apaixonar."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

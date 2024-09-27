@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: BotoRosa_CharmingVoice_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: 9c649773ab722aa4794041bff9f5d94e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3430944768
+    m_Localized: Boa noite. Tinha uma coisa que eu tava querendo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5922361344
+    m_Localized: "E se voc\xEA falar que eu tenho uma voz mais galante, uma voz que
+      qualquer mulher que escuta fica caidinha por mim?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173560303616
+    m_Localized: "Acho que isso \xE9 inveja sua."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186738806784
+    m_Localized: Agora sim, uma voz de respeito.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

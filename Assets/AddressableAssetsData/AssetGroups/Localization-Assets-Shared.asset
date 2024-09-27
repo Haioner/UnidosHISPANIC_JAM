@@ -398,6 +398,227 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63af78c6b3e079e4abfe1e8df79d78c8
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_Transformation Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25013d2b58302bf479abb4cfecbadf4c
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_BeautifulLady Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ccfb8602adcdc749a94af7527e10dcc
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_Fools Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6526be02f0a46e543a62c54ffc3544e6
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_Irresistible Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afbf1c6923b155a44bfecc52ec622523
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_Millionaire Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c649773ab722aa4794041bff9f5d94e
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_CharmingVoice Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85dfd45257581284ca54b2bf6962f8f3
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_Stuck Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e5f3158d4df283429fa24b5024ca2a7
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_FeelingGenerous Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5af0e860d714c44286306ee0c4d67e2
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_WhatIf Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88fb7b73d9290b948873d0bf560bd740
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_FallingInLove Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7590828e5bdb534284134aa10b6f814
+    m_Address: Assets/Localization/Tables/Boto Rosa/BotoRosa_Reinforce Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1cec03d29c23d947ab4c56f75df844c
+    m_Address: Assets/Localization/Tables/Cuca/Cuca_ComingToTake Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 475a5938a13e7ad408d57eda8f136bd6
+    m_Address: Assets/Localization/Tables/Cuca/Cuca_Disobedient Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b39964962b8417d41bbd766e8e1ca583
+    m_Address: Assets/Localization/Tables/Cuca/Cuca_MoreStory Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9fe87cd77b6e68428011911dcc40b33
+    m_Address: Assets/Localization/Tables/Cuca/Cuca_HelpPower Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8832df557a195ac49a6e49b188ba9240
+    m_Address: Assets/Localization/Tables/Cuca/Cuca_Sneakier Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8129ed348e380b14b932e0b7ad8dcccf
+    m_Address: Assets/Localization/Tables/Cuca/Cuca_FewSouls Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73928ae2ef3cdb64a9a0e06e92649717
+    m_Address: Assets/Localization/Tables/Cuca/Cuca_BeingTold Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60b83d6d035dc9042971617f985be5bc
+    m_Address: Assets/Localization/Tables/Cuca/Cuca_FitMore Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a9116d6882f5324d8b80cb3bdffc213
+    m_Address: Assets/Localization/Tables/Cuca/Cuca_BehavedKids Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c791ed0ade0c8246b7971dc55c5b8b7
+    m_Address: Assets/Localization/Tables/Cuca/Cuca_LittlePrettier Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 773df98091acbbf4d90dabfcbec511fc
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_TurnInto Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79a3b5d5ace0d4f4484aac6d045792e8
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_LoggersSoul Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec674f084c075c74891bca292a0db68d
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_DestroyedForest Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68852d85d64c4d94fafef99c3781cabd
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_RiverRisen Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ca67d4408c46f74d9d152384af5c178
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_VinesTouch Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9bacd855b53d0774daa92789d57ba670
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_CollectedRecently Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e0fc14f14998b0489b8e7a529919e11
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_FastArrow Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddd31da31a8e24142b1f83ff76c25773
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_HuntersAppearing Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ba671c0bdce1bc4db5feeb7d6ccb19b
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_Vision Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbb25add3038c6049afcb5c6fdc06714
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_Deal Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71ac2d3f91359dc4ba2af8b157288a92
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_DealTaxes Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e8b22b4b337be54fb51edd92ff027f2
+    m_Address: Assets/Localization/Tables/El Cadejo/Cadejo_TwiceSize Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99047a9747fb1c2428103121b1b86e0c
+    m_Address: Assets/Localization/Tables/El Cadejo/Cadejo_Idiot Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0984d025b05d739409a6df3b095af841
+    m_Address: Assets/Localization/Tables/El Cadejo/Cadejo_Nowadays Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3047c47597e7fd84cb848e856ced03f6
+    m_Address: Assets/Localization/Tables/El Cadejo/Cadejo_AppearShadows Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4243d2f68c95920448691852848c569c
+    m_Address: Assets/Localization/Tables/El Cadejo/Cadejo_GettingWeak Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9263a9aaa432a7346ad410fb4458ca23
+    m_Address: Assets/Localization/Tables/El Cadejo/Cadejo_WorldImmoral Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4251f4627760ae48b60082cb31b0939
+    m_Address: Assets/Localization/Tables/El Cadejo/Cadejo_Terrifying Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33efa7d954bd02e4496985a5748f23ce
+    m_Address: Assets/Localization/Tables/El Cadejo/Cadejo_Nowhere Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfcb17c7206feae47bda0474f9a281a8
+    m_Address: Assets/Localization/Tables/El Cadejo/Cadejo_DeliciousSouls Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 996c582e525535e45aefa3d3d722bb1c
+    m_Address: Assets/Localization/Tables/El Cadejo/Cadejo_AttractiveSoul Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:

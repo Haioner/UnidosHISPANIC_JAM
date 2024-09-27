@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Curupira_Deal_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: fbb25add3038c6049afcb5c6fdc06714, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 4445966336
+    m_Localized: I came up with a deal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7973376000
+    m_Localized: "You write something for me, and I\u2019ll bring you more souls,
+      how about that?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106585657344
+    m_Localized: Yeah, I think you're not very good with business.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213926285312
+    m_Localized: You know a lot about business.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

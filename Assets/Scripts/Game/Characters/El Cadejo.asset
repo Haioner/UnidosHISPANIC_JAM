@@ -19,6 +19,7 @@ MonoBehaviour:
     Power: 1
     AcumulatedDeaths: 0
   DefaultPriority: 15
+  nomadic: 0
   firstDialogue: {fileID: 11400000, guid: da936e5c14ced594d95af34f5085589c, type: 2}
   defaultDialogues:
   - {fileID: 11400000, guid: 970b29e8399f8a04d9dcf0cafd3ceefe, type: 2}
@@ -26,3 +27,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a20c8b653fdeae248ac5bb9d7ec73c89, type: 2}
   - {fileID: 11400000, guid: 8b00372435c7bd64ba58c7555e545b12, type: 2}
   - {fileID: 11400000, guid: ce4f5f0e418b62043b0df0a9b7884d7f, type: 2}
+  - {fileID: 11400000, guid: a048ed6a593a12f41adeb2f09e709d76, type: 2}
+  - {fileID: 11400000, guid: 03aa1a99774c14443ad080a56070d2b3, type: 2}
+  - {fileID: 11400000, guid: e6d04dc100f288e45916d5028c175987, type: 2}
+  - {fileID: 11400000, guid: 08a8d70511801a7419618f0665c27553, type: 2}
+  - {fileID: 11400000, guid: ab1e52486f4dcd5449a9e669a2a6c063, type: 2}
+  - {fileID: 11400000, guid: dd26801e280e541409550d2dde3607e8, type: 2}
+  - {fileID: 11400000, guid: 8f3f4217b62f6c846820da41a1baf717, type: 2}
+  - {fileID: 11400000, guid: db4c38053de08ef4f85cff2ec3e68ef3, type: 2}
+  - {fileID: 11400000, guid: b88c00630ef47354aa621764cbfab762, type: 2}

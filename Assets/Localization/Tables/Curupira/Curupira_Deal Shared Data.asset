@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Curupira_Deal Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Curupira_Deal
+  m_TableCollectionNameGuidString: fbb25add3038c6049afcb5c6fdc06714
+  m_Entries:
+  - m_Id: 4445966336
+    m_Key: 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7973376000
+    m_Key: 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106585657344
+    m_Key: NO_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213926285312
+    m_Key: YES_1
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8164374721465417884
+  references:
+    version: 2
+    RefIds:
+    - rid: 8164374721465417884
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1727410031889

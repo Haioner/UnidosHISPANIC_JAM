@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Cuca_BeingTold_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: 73928ae2ef3cdb64a9a0e06e92649717, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3913289728
+    m_Localized: "Minha hist\xF3ria n\xE3o t\xE1 sendo contada, t\xF4 perdendo minha
+      ca\xE7a."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6698307584
+    m_Localized: "Preciso de poder pra pegar as crian\xE7as ou n\xE3o consigo ter
+      muitas oportunidades."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

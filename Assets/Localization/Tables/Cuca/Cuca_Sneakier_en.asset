@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Cuca_Sneakier_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 8832df557a195ac49a6e49b188ba9240, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3359641600
+    m_Localized: Yummy, succulent children...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6312431616
+    m_Localized: "Write that I\u2019m sneakier, so I can collect more souls for you."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167436619776
+    m_Localized: It's hard to catch children without being seen...
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
