@@ -19,6 +19,7 @@ MonoBehaviour:
     Power: 100
     AcumulatedDeaths: 0
   DefaultPriority: 50
+  nomadic: 1
   firstDialogue: {fileID: 11400000, guid: 874f689cf7ecfe4408408f000966b57b, type: 2}
   defaultDialogues:
   - {fileID: 11400000, guid: 874f689cf7ecfe4408408f000966b57b, type: 2}

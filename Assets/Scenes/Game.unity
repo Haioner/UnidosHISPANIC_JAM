@@ -489,9 +489,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -928918691
+  m_SortingLayer: -1
+  m_SortingOrder: 1
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11088,6 +11088,7 @@ MonoBehaviour:
   bookCount: 1
   souls: 0
   soulThreshold: 100000
+  bookLimit: 5
   populationMax: 13000000000
   soulClip: {fileID: 8300000, guid: cae48b0426643984ab9e2aeeff9d32ba, type: 3}
   currentLegendsStats: []

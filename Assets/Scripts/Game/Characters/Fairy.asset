@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93ffcd430f04cd348849b68169435448, type: 3}
   m_Name: Fairy
   m_EditorClassIdentifier: 
-  characterIcon: {fileID: 0}
   characterSprite: {fileID: 21300000, guid: 3ea1197ca2e1cf842a01d3657885c903, type: 3}
   nameColor: {r: 1, g: 0.7647059, b: 0.043137256, a: 1}
   DefaultStats:
     Character: {fileID: 0}
     Power: 100
+    AcumulatedDeaths: 0
   DefaultPriority: 0
+  nomadic: 1
   firstDialogue: {fileID: 11400000, guid: ae211435dfbf3b447b256f02eb492943, type: 2}
   defaultDialogues: []

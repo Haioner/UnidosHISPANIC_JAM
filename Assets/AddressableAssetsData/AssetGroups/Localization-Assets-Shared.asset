@@ -300,6 +300,104 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6ca0e1efe14fee4f8ccdc8dcbe49661
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_FirstDialogue Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5490f8f9ed2a1ba47bfe02319bb0e36c
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_HereSouls Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cf192ac84ac8d948b5f8bd629fa6ed1
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_BanditSouls Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13cb872613af82b4d89b871872804a82
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_BunniesFamily Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 523fbaa02e7fb4242b305f1447635f1b
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_LumberjacksCutting Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dd71ffef2908474bbe30f609da58bd0
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_WereFaster Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99ddc2fd6aafad445a8cd941be09ef57
+    m_Address: Assets/Localization/Tables/Curupira/Curupira_Traps Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb6c321a67610ca4795118c9f9d03fdf
+    m_Address: Assets/Localization/Tables/Mula/Mula_FirstDialogue Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43bf4fa406adfa349948147cb23d8247
+    m_Address: Assets/Localization/Tables/Mula/Mula_Pocoto Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb9220a6225a1ed49bed19d9e739e880
+    m_Address: Assets/Localization/Tables/Mula/Mula_Unsuspecting Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b851004de750d3c44890cfaa113771c2
+    m_Address: Assets/Localization/Tables/Mula/Mula_PriestAllNight Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c63c17a9669b3a449df2069f77350a6
+    m_Address: Assets/Localization/Tables/Mula/Mula_KnowAbout Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30247bbcde8f78546963d14999808af5
+    m_Address: Assets/Localization/Tables/Mula/Mula_FlameWeak Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4df6a6459cb8eb2429de7bb9384a8f0c
+    m_Address: Assets/Localization/Tables/Saci/Saci_FirstDialogue Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9522062530a5d04c89810d2f288a970
+    m_Address: Assets/Localization/Tables/Saci/Saci_SoulsEarlier Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8850ba158f37aa4e9cac5cf3abc7999
+    m_Address: Assets/Localization/Tables/Saci/Saci_FunnierTrick Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60bebc28052812f47a34a83d99074099
+    m_Address: Assets/Localization/Tables/Saci/Saci_PlaceDull Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da40cc608b7b60e4f91da6ff4c3a1ea4
+    m_Address: Assets/Localization/Tables/Saci/Saci_Sieve Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 311bf231e01251f469a8cb679d40c304
+    m_Address: Assets/Localization/Tables/Saci/Saci_Buddy Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:

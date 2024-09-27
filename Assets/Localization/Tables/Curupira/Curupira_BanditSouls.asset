@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: Curupira_BanditSouls
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 4cf192ac84ac8d948b5f8bd629fa6ed1, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: e0889d49e491cc044ae7fc8be4cc15d7, type: 2}
+  - {fileID: 11400000, guid: b3f079ddd7c624642aa148b7e44eb3b6, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

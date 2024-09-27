@@ -321,6 +321,120 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-pt-BR
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 507e65789ba9fab4eadb6ec6974dcc21
+    m_Address: Curupira_FirstDialogue_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eafe0d9d75fc89d4ab70254d74471b3c
+    m_Address: Curupira_HereSouls_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3f079ddd7c624642aa148b7e44eb3b6
+    m_Address: Curupira_BanditSouls_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ceed1b2a6a5b58746a43e2c009f3b483
+    m_Address: Curupira_BunniesFamily_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f982cdb99d26a3444995ec62daabbd96
+    m_Address: Curupira_LumberjacksCutting_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2ad79e8fcc4b41449592f0d9d563623
+    m_Address: Curupira_WereFaster_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e425bcfb25609194da352bb50d0e54eb
+    m_Address: Curupira_Traps_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbe17ced4e56fac45a23c6e93819b2bc
+    m_Address: Mula_FirstDialogue_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c90d655741d2c14dbcf65ab7cbd99c9
+    m_Address: Mula_Pocoto_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e0d02c93f2508847939d712f30fd328
+    m_Address: Mula_Unsuspecting_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0af60db2d200d6a4fbd0048aa6a02d6a
+    m_Address: Mula_PriestAllNight_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8014fb706588c0243a0d7557e5c39120
+    m_Address: Mula_KnowAbout_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0c824c4d56845c44951d2a6c9216b6e
+    m_Address: Mula_FlameWeak_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 733e078502692a444959e2060d37e46f
+    m_Address: Saci_FirstDialogue_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 941de51a4331ac14c998b2f941a22263
+    m_Address: Saci_SoulsEarlier_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec1c2ec868bd3c34dbdd08454974307d
+    m_Address: Saci_FunnierTrick_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a2a074c119ddbe4ab57e556e8f34e63
+    m_Address: Saci_PlaceDull_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d737f18737b0d241b5843ed034a7ec2
+    m_Address: Saci_Sieve_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ccd533c8256198448ef61870783eac6
+    m_Address: Saci_Buddy_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:

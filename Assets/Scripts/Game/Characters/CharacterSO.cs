@@ -13,6 +13,7 @@ public class CharacterSO : ScriptableObject
 
     [Header("Dialogues")]
     public int DefaultPriority;
+    public bool nomadic = false; //dont registry
     public DialogueSO firstDialogue;
     public List<DialogueSO> defaultDialogues = new List<DialogueSO>(); 
 }

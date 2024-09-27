@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93ffcd430f04cd348849b68169435448, type: 3}
+  m_Name: Saci Perere
+  m_EditorClassIdentifier: 
+  characterSprite: {fileID: 21300000, guid: 015ded1abc5dfa2478ea75cf4f9cd9fa, type: 3}
+  nameColor: {r: 0.23137257, g: 0.23137257, b: 0.23137257, a: 1}
+  DefaultStats:
+    Character: {fileID: 0}
+    Power: 1
+    AcumulatedDeaths: 0
+  DefaultPriority: 15
+  firstDialogue: {fileID: 11400000, guid: 8cd5036ba2278ba4f9c370a3d50b7654, type: 2}
+  defaultDialogues:
+  - {fileID: 11400000, guid: 3fdfeb2f2439f6d47b996f752045b080, type: 2}
+  - {fileID: 11400000, guid: 176bf64f2ad60e543bc1ca7974e85e7d, type: 2}
+  - {fileID: 11400000, guid: c9f62b4cd45e0324ca640c3e0ac7d914, type: 2}
+  - {fileID: 11400000, guid: ff0e0612a4522f243b1236005ffc68ca, type: 2}
+  - {fileID: 11400000, guid: 17b7647eebdf2e54cb01fc143fd48d20, type: 2}
