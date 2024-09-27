@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: Ciguapa_MyLove
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 83a302d0f043efb4f95dccb1a7b5e3de, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 4ddc7e6f08f065c498e6788b53329e64, type: 2}
+  - {fileID: 11400000, guid: 14c0496bee72b5947b65adeb8e05c327, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

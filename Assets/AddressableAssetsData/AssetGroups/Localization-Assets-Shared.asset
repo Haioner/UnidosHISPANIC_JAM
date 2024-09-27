@@ -729,6 +729,59 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 407630717a310d14ba63a7d0c5da1659
+    m_Address: Assets/Localization/Tables/La Ciguapa/Ciguapa_SeducingGuy Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83a302d0f043efb4f95dccb1a7b5e3de
+    m_Address: Assets/Localization/Tables/La Ciguapa/Ciguapa_MyLove Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c27c5f7310c4dd94d8a23dbcca76f60c
+    m_Address: Assets/Localization/Tables/La Ciguapa/Ciguapa_IntoAnimals Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 654b81910c196a749b20c9e76e58c373
+    m_Address: Assets/Localization/Tables/La Ciguapa/Ciguapa_SomeGoodies Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f2c3c62a80428441afacde1aea37259
+    m_Address: Assets/Localization/Tables/La Ciguapa/Ciguapa_ThrowOff Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 996ce18056b0ef94faf8d2ea7e64cf0b
+    m_Address: Assets/Localization/Tables/La Ciguapa/Ciguapa_Cutie Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25afedec2dffa9e48972e50d5cec7321
+    m_Address: Assets/Localization/Tables/La Ciguapa/Ciguapa_MostBeautiful Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1c4a81c0b206114da1b3b8e57f9b910
+    m_Address: Assets/Localization/Tables/La Ciguapa/Ciguapa_ImScared Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee1cde907b832ed4589f63694acf72bc
+    m_Address: Assets/Localization/Tables/La Ciguapa/Ciguapa_RememberedYou Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58bede633244ab443aa0c43cca52fbb7
+    m_Address: Assets/Localization/Tables/La Ciguapa/Ciguapa_LittleBitPower Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:

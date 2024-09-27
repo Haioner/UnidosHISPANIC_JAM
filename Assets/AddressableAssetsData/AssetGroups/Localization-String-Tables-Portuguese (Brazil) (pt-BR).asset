@@ -807,6 +807,66 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-pt-BR
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fba4f29aba233ce48a0eeadf4d632a87
+    m_Address: Ciguapa_SeducingGuy_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14c0496bee72b5947b65adeb8e05c327
+    m_Address: Ciguapa_MyLove_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac30385662ccca3428cf31e0daa607e0
+    m_Address: Ciguapa_IntoAnimals_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 409cbb4e8d7b795429b823cd32bca904
+    m_Address: Ciguapa_SomeGoodies_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e02ecdc7052d628438a25a58035d912c
+    m_Address: Ciguapa_ThrowOff_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2fbf405a36163042ba1ffc5a07396a7
+    m_Address: Ciguapa_Cutie_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8af6fc06daca2c047aeb096a7610fe98
+    m_Address: Ciguapa_MostBeautiful_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5132093e997a38044bd08f1ed6ce5323
+    m_Address: Ciguapa_ImScared_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc64a154602fcd34294e763c95bc0872
+    m_Address: Ciguapa_RememberedYou_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87e45b12aa97735419bdecba821ccfad
+    m_Address: Ciguapa_LittleBitPower_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:

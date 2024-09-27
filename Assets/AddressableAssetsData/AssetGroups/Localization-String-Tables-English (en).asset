@@ -807,6 +807,66 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5dbfb9413bf3ef44b2fd91bceb52ee5
+    m_Address: Ciguapa_SeducingGuy_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ddc7e6f08f065c498e6788b53329e64
+    m_Address: Ciguapa_MyLove_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e19d5dac41bbee49ab628771a23ed17
+    m_Address: Ciguapa_IntoAnimals_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f43e6675a9868c74586b87ad45768a5a
+    m_Address: Ciguapa_SomeGoodies_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99712fb891e408a4baf3c3b4b821a082
+    m_Address: Ciguapa_ThrowOff_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6ccdab5dd0e619449336153f92d28d0
+    m_Address: Ciguapa_Cutie_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b1dc374ce9a0ee489a3db765c7b6934
+    m_Address: Ciguapa_MostBeautiful_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8405027453f44364cac5f8593b0f080a
+    m_Address: Ciguapa_ImScared_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a33dffc6445dcd74f827be56b2e813e3
+    m_Address: Ciguapa_RememberedYou_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 151b425b356576a4bacfa0d15d894458
+    m_Address: Ciguapa_LittleBitPower_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:

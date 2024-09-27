@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Ciguapa_MyLove_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 83a302d0f043efb4f95dccb1a7b5e3de, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3460304896
+    m_Localized: Hey my love, how about giving me a little attention?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15607009280
+    m_Localized: Maybe if you give me a little attention... write a story for me...
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
