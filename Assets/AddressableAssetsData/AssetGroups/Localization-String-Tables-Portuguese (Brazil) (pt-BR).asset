@@ -687,6 +687,126 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-pt-BR
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80683949e140e404b9670edfeeaa8389
+    m_Address: Chupacabra_Goats_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e75296028cfd164287af455cf680b4b
+    m_Address: Chupacabra_GoatAround_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a05b38b242d62494786f474513fa07f7
+    m_Address: Chupacabra_WereAGoat_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab9c270ea4a05d04a95f1ac1fb9367df
+    m_Address: Chupacabra_OnlySmells_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d04ffe43c9a5d13459754b509da7c7e1
+    m_Address: Chupacabra_SuckingSome_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a632f4014d1aa345b15bba8d244a54c
+    m_Address: Chupacabra_TakingTheir_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba5c7f002b052af4f8bc197741154546
+    m_Address: Chupacabra_SippingGoats_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 035e7a2e247c822439092280f912ecf4
+    m_Address: Chupacabra_SmellLike_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c8d73b5775b45f40b7d6824b112c6a8
+    m_Address: Chupacabra_HideMe_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cebd9211ed9b3894e95e11b0ae0db798
+    m_Address: Chupacabra_Hungry_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cae66f853183414cbbe86a1d5970b69
+    m_Address: Silbon_FunnyWhistle_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4404035263fbeda42be5e3a817e7257c
+    m_Address: Silbon_SackHeavy_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8d9f160f0e151c4d8f65bfecaf86af1
+    m_Address: Silbon_BeingLegend_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59decf87ac7e0c745bf1fc63e8062bbb
+    m_Address: Silbon_SituationBefore_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f65498d724ce714e91dc7caec9e5d1d
+    m_Address: Silbon_LendSome_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9d975bf4d055be42b06bab45d8547e0
+    m_Address: Silbon_GotAngry_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d53bec8e72aa56e4a8c5b0cfaa5ff6e9
+    m_Address: Silbon_Swear_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7ff43f96149e4347b078165a55a5193
+    m_Address: Silbon_Teleport_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee1124ae26a2d754d9b0b22a91f84896
+    m_Address: Silbon_WorkingHard_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8223a796a754eae4abd4772926c4914f
+    m_Address: Silbon_EternalGuilt_pt-BR
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pt-BR
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:

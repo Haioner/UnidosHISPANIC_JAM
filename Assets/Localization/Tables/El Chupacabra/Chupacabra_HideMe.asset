@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: Chupacabra_HideMe
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 8314d0bd2eb66d44f93482785cd8d091, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 63aae2b746707c74798173ce1cbea7a1, type: 2}
+  - {fileID: 11400000, guid: 4c8d73b5775b45f40b7d6824b112c6a8, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

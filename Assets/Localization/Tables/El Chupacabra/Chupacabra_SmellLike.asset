@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: Chupacabra_SmellLike
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 8ebba5e946bd07242af9974da2f24a89, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: ca6b3afc57b2b86479c9464f1e8c1fd9, type: 2}
+  - {fileID: 11400000, guid: 035e7a2e247c822439092280f912ecf4, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

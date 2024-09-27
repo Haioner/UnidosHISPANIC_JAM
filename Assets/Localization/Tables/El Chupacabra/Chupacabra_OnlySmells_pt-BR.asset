@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Chupacabra_OnlySmells_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: 987c49e054e33a745b6b3193d749a60b, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3124760576
+    m_Localized: Hmmm...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8061456384
+    m_Localized: "Talvez um nariz que s\xF3 cheira cabras, o que acha?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11110715392
+    m_Localized: "A\xED eu posso encontrar v\xE1rias."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 244246908928
+    m_Localized: "N\xE3o? ah... t\xE1 bom ent\xE3o."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -687,6 +687,126 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb2b7143daca5e94ea73443d28fe9096
+    m_Address: Chupacabra_Goats_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 238b8ab8db09d56489593eea3425e1f9
+    m_Address: Chupacabra_GoatAround_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8e76759b0248a74698ed62e4913b8d5
+    m_Address: Chupacabra_WereAGoat_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffb313baa5e08534b9a0537d05f97961
+    m_Address: Chupacabra_OnlySmells_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1545fac1fc89c04fb17caf43bb09da0
+    m_Address: Chupacabra_SuckingSome_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47c86bcfb7d332b46af0c2de118cd917
+    m_Address: Chupacabra_TakingTheir_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3503b80f6676970499562083db31becf
+    m_Address: Chupacabra_SippingGoats_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca6b3afc57b2b86479c9464f1e8c1fd9
+    m_Address: Chupacabra_SmellLike_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63aae2b746707c74798173ce1cbea7a1
+    m_Address: Chupacabra_HideMe_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a4c4c277ef525d44ad3efe60c01780f
+    m_Address: Chupacabra_Hungry_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2702a61caeb96b543bbe108b1ad6a442
+    m_Address: Silbon_FunnyWhistle_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f043e5e5f5e52f542a7ae557a8f18370
+    m_Address: Silbon_SackHeavy_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31fbec380846ea249a394217850d918f
+    m_Address: Silbon_BeingLegend_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ba61735cac0f9940b0c55218c62849b
+    m_Address: Silbon_SituationBefore_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da14abffd93048a4999574f58aa71289
+    m_Address: Silbon_LendSome_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6461ddab3da38545aaa889b7af6596f
+    m_Address: Silbon_GotAngry_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 343988fc688cbb84582e0ac72413e703
+    m_Address: Silbon_Swear_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f13cb49394abbae47a0be56da0a5342c
+    m_Address: Silbon_Teleport_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82fef848d58fbf74988d2b247c5210e7
+    m_Address: Silbon_WorkingHard_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbe0b150c44467f438e5d7358c73ef53
+    m_Address: Silbon_EternalGuilt_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:

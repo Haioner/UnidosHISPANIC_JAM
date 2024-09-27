@@ -619,6 +619,116 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 043be36810de4614285c4211863bd94b
+    m_Address: Assets/Localization/Tables/El Chupacabra/Chupacabra_Goats Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 618dbf5126931fc4fba1214bfc462e44
+    m_Address: Assets/Localization/Tables/El Chupacabra/Chupacabra_GoatAround Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01527ea6ddf8d45478e793d0f0362e1d
+    m_Address: Assets/Localization/Tables/El Chupacabra/Chupacabra_WereAGoat Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 987c49e054e33a745b6b3193d749a60b
+    m_Address: Assets/Localization/Tables/El Chupacabra/Chupacabra_OnlySmells Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08aabea8a8b7d304b85cbadb75b4e543
+    m_Address: Assets/Localization/Tables/El Chupacabra/Chupacabra_SuckingSome Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43df7a57afaa8a748af6f050ddf950b8
+    m_Address: Assets/Localization/Tables/El Chupacabra/Chupacabra_TakingTheir Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50c255cc9d6b977409969bfb12820c7e
+    m_Address: Assets/Localization/Tables/El Chupacabra/Chupacabra_SippingGoats Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ebba5e946bd07242af9974da2f24a89
+    m_Address: Assets/Localization/Tables/El Chupacabra/Chupacabra_SmellLike Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8314d0bd2eb66d44f93482785cd8d091
+    m_Address: Assets/Localization/Tables/El Chupacabra/Chupacabra_HideMe Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f435fcfa6ffaf7241bc566fccfc16ece
+    m_Address: Assets/Localization/Tables/El Chupacabra/Chupacabra_Hungry Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0b0dcf008f19ad45b18371cd794dfa9
+    m_Address: Assets/Localization/Tables/El Silbon/Silbon_FunnyWhistle Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 986a278880eea894faece4c3e7e915f6
+    m_Address: Assets/Localization/Tables/El Silbon/Silbon_SackHeavy Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff30a357a316d2f498432510a9954483
+    m_Address: Assets/Localization/Tables/El Silbon/Silbon_BeingLegend Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81026d4c64bd0454fb472d4369ea2962
+    m_Address: Assets/Localization/Tables/El Silbon/Silbon_SituationBefore Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d86472b9186500a4fb93e0fd7402647f
+    m_Address: Assets/Localization/Tables/El Silbon/Silbon_LendSome Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8af4c06aa5a8084380effff8a864e33
+    m_Address: Assets/Localization/Tables/El Silbon/Silbon_GotAngry Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2a626e6538baf64cb7ae49e64f29ee0
+    m_Address: Assets/Localization/Tables/El Silbon/Silbon_Swear Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 325e67db362979247ba838b855d1a641
+    m_Address: Assets/Localization/Tables/El Silbon/Silbon_Teleport Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 717b944f7e5391e428547337c2abd7ed
+    m_Address: Assets/Localization/Tables/El Silbon/Silbon_WorkingHard Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a729f82e66ba2c4194b700f9b1ec126
+    m_Address: Assets/Localization/Tables/El Silbon/Silbon_EternalGuilt Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:
