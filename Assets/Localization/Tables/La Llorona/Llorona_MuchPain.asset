@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: Llorona_MuchPain
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 60ef4d5971c7c0948ae9c4d37e9fed87, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: d66eb2e5d26cb51488855b34ecd20f3e, type: 2}
+  - {fileID: 11400000, guid: 9f213a8465554fc4493daa7c3d71ec74, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

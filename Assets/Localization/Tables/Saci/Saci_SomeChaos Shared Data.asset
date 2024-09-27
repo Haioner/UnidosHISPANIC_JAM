@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Saci_SomeChaos Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Saci_SomeChaos
+  m_TableCollectionNameGuidString: f23607d8298610344a2b9bb1466e7a01
+  m_Entries:
+  - m_Id: 2730496000
+    m_Key: 1
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8164374740687126556
+  references:
+    version: 2
+    RefIds:
+    - rid: 8164374740687126556
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1727457345297

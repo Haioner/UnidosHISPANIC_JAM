@@ -867,6 +867,186 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59c910f89ef723a4e8dc950f127ff0e3
+    m_Address: Llorona_Hijos_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48169dce03a23d64e82bca125d5b0081
+    m_Address: Llorona_AboutLegend_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71955e829d2417746829c7857b9041ca
+    m_Address: Llorona_CarriedTides_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e2576cecdefd6a4592850eecd863fc4
+    m_Address: Llorona_MissThem_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d66eb2e5d26cb51488855b34ecd20f3e
+    m_Address: Llorona_MuchPain_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 346b9e2bae2061a469eb3e76d69c7330
+    m_Address: Llorona_SeeMy_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a20fff944abb4d4ba80edb624436eaa
+    m_Address: Llorona_EndlessPain_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c14d4c761f4000d47aa52a4edcfa6b4b
+    m_Address: Llorona_MortalSouls_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2877074daa3187742801247e30efd4d5
+    m_Address: Llorona_Float_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b91981170a05e0d4787718958aada5e6
+    m_Address: Llorona_LongTime_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 046a4ce94fa6fa64d9efc5a8dad24a18
+    m_Address: Mula_KindCurse_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 368f627870d069345b14cb5169cd058f
+    m_Address: Mula_HappyCouples_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eba0b046992d9d1449c2df45f296b3c7
+    m_Address: Mula_HardlyFear_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86af8f6a2525ac347a0049d684c71ff5
+    m_Address: Mula_SoulsCouples_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54c32bec0ea2b534386fe041732a4ec7
+    m_Address: Mula_Powerful_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f1cca9b4b2010d4b909c0c4533f9b7c
+    m_Address: Mula_MeAHand_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1de57cb402019004bb5a06189ba715ab
+    m_Address: Mula_JustBecause_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8ddbd7cfdaa72d4ab04fe0cd5efa96c
+    m_Address: Mula_Soon_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf15e528f10642040b1cada7fee42ea3
+    m_Address: Mula_Partner_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59658f6434b2f1f4eadbc6b99dcb9ef6
+    m_Address: Mula_BestLegend_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d13279216b4b604b8758a0fe166e5d6
+    m_Address: Saci_Jars_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acc01faeab820f4449c323a884c5751c
+    m_Address: Saci_WhirlWind_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e32df14dda27cca4b96589491ce18a86
+    m_Address: Saci_SillyThings_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49bd2acd701cd414b9f5b2f36c7a48a5
+    m_Address: Saci_TakeSome_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 602328d6268070743af37fd4c99dd491
+    m_Address: Saci_GreatLeaps_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c502ad830cae424d8dec0ea6cfad322
+    m_Address: Saci_CrazyThing_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fbcfb1d6d54f574399ac4adc78974d8
+    m_Address: Saci_ForgetWho_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47f5cc4acafede0418c96d8818e403a9
+    m_Address: Saci_FromPrank_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42d2a209ab2ffa0438c1cf70a653538e
+    m_Address: Saci_SomeChaos_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce23ef1008be0ec4694d7850b028818f
+    m_Address: Saci_GrabCoin_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: Saci_SillyThings
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: d8e9cdc45b8ae464382392a3f7bdf24d, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: e32df14dda27cca4b96589491ce18a86, type: 2}
+  - {fileID: 11400000, guid: 4efe3379aceca0241b39cb477bbf3177, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

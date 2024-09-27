@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Llorona_MuchPain_pt-BR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: pt-BR
+  m_SharedData: {fileID: 11400000, guid: 60ef4d5971c7c0948ae9c4d37e9fed87, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2873102336
+    m_Localized: "Me ajude, por favor! ESTOU EM MUITO SOFRIMENTO. Mas ningu\xE9m
+      me ouve. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7872712704
+    m_Localized: "Minha lenda est\xE1 enfraquecida, e eu estou cada vez mais fraca."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -782,6 +782,157 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a054125cac4c27f4287c606c5bd0492d
+    m_Address: Assets/Localization/Tables/La Llorona/Llorona_Hijos Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d95dfddd4ec5dc4bb7abf00c69d544f
+    m_Address: Assets/Localization/Tables/La Llorona/Llorona_AboutLegend Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af4c8551be3f5ba44a8ca4d41d060e79
+    m_Address: Assets/Localization/Tables/La Llorona/Llorona_CarriedTides Shared
+      Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 230fbb50b9e6714488a1fcdc9f93c1c6
+    m_Address: Assets/Localization/Tables/La Llorona/Llorona_MissThem Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60ef4d5971c7c0948ae9c4d37e9fed87
+    m_Address: Assets/Localization/Tables/La Llorona/Llorona_MuchPain Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e71d7ded8f0eec54185f8c779ffe7f43
+    m_Address: Assets/Localization/Tables/La Llorona/Llorona_SeeMy Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d277ed461da602a48b36c044d73f2294
+    m_Address: Assets/Localization/Tables/La Llorona/Llorona_EndlessPain Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 568a378672ccbd042a0b46fc9aef01e8
+    m_Address: Assets/Localization/Tables/La Llorona/Llorona_MortalSouls Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bfd322b8d07eaa4ba1a8a88086f8463
+    m_Address: Assets/Localization/Tables/La Llorona/Llorona_Float Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 470a1f3190fbce64faee755d8831fa2a
+    m_Address: Assets/Localization/Tables/La Llorona/Llorona_LongTime Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16299f56e459bcf4892d54b0ad9f00df
+    m_Address: Assets/Localization/Tables/Mula/Mula_KindCurse Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9136a2b2dd5449440baced1ba687fb96
+    m_Address: Assets/Localization/Tables/Mula/Mula_HappyCouples Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1bb4cea5fa92ee42accf77133570fd8
+    m_Address: Assets/Localization/Tables/Mula/Mula_HardlyFear Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b7e10ee18450454e8f43fcd6e7d521b
+    m_Address: Assets/Localization/Tables/Mula/Mula_SoulsCouples Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 074eb00caf850f447a653725d2d92dcf
+    m_Address: Assets/Localization/Tables/Mula/Mula_Powerful Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf98b42a9e9535745b347a545d87df45
+    m_Address: Assets/Localization/Tables/Mula/Mula_MeAHand Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b3d40f927979244799daaa15f60173f
+    m_Address: Assets/Localization/Tables/Mula/Mula_JustBecause Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9e1223a764ed3d4c8eb548060d2d335
+    m_Address: Assets/Localization/Tables/Mula/Mula_Soon Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: beab9a1c2e7268c40acd5be8a105c038
+    m_Address: Assets/Localization/Tables/Mula/Mula_Partner Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a98141f2c5021ce479751ae12ad8783a
+    m_Address: Assets/Localization/Tables/Mula/Mula_BestLegend Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4ab576ba9dee714e8e4779ca4f2e181
+    m_Address: Assets/Localization/Tables/Saci/Saci_Jars Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94f589c7f41ad9a469a778246bfd78eb
+    m_Address: Assets/Localization/Tables/Saci/Saci_WhirlWind Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8e9cdc45b8ae464382392a3f7bdf24d
+    m_Address: Assets/Localization/Tables/Saci/Saci_SillyThings Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b275d6e69884b49409aeaadf6c300b17
+    m_Address: Assets/Localization/Tables/Saci/Saci_TakeSome Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de0b6b8941082c44a8befbe38249c0ff
+    m_Address: Assets/Localization/Tables/Saci/Saci_GreatLeaps Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8db29f450ce5744dbfb75d8a86c1e67
+    m_Address: Assets/Localization/Tables/Saci/Saci_CrazyThing Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df2beece0c2448144a265a30affd9c60
+    m_Address: Assets/Localization/Tables/Saci/Saci_ForgetWho Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0081c53b710cffc4491fec5ed73e1e75
+    m_Address: Assets/Localization/Tables/Saci/Saci_FromPrank Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f23607d8298610344a2b9bb1466e7a01
+    m_Address: Assets/Localization/Tables/Saci/Saci_SomeChaos Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 242e6fbbe0b7abc4687acea14db7960f
+    m_Address: Assets/Localization/Tables/Saci/Saci_GrabCoin Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: b4935927d4fad764a8b95f6e4d6d2e91, type: 2}
   m_SchemaSet:
