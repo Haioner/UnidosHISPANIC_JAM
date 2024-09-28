@@ -95,6 +95,26 @@ public class DialogueManager : MonoBehaviour
 		}
 	}
 
+	public void Accept()
+	{
+		if(IsLastDialogueLine() && waitingForChoice)
+		{
+            SoundManager.PlayAudioClip(yesClip);
+            ApplyConsequence(true);
+            yesDOT.DORestart();
+        }
+	}
+
+	public void Deny()
+	{
+        if (IsLastDialogueLine() && waitingForChoice)
+        {
+            SoundManager.PlayAudioClip(noClip);
+            ApplyConsequence(false);
+            noDOT.DORestart();
+        }
+    }
+
 	public CharacterSO GetDialogueCharacter()
 	{
 		return dialogueList[0].characterOwner;
