@@ -17,6 +17,8 @@ MonoBehaviour:
   isTaxes: 0
   needAwnser: 0
   dialogueTable: {fileID: 11400000, guid: a60394ca18bf60043a9f80839ed63b92, type: 2}
+  dialogueEnglish: {fileID: 11400000, guid: 8fdbc6fcb90af3d429ba5801801a91ff, type: 2}
+  dialogueBR: {fileID: 11400000, guid: abc0bb7dc3fb9c240b759a7c1a0668bb, type: 2}
   YES_AwnserConsequences:
     ConsequenceStats: []
     ConsequenceDialogues: []

@@ -10,13 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f6e21445f226d8498654b4510aa6c5f, type: 3}
-  m_Name: LaCiguapa_HairTratment
+  m_Name: LaCiguapa_HairTreatment
   m_EditorClassIdentifier: 
   characterOwner: {fileID: 11400000, guid: d29e1ccc17afcfa41a6d9e51a89c4d64, type: 2}
   FreeSouls_END: 0
   isTaxes: 0
   needAwnser: 1
   dialogueTable: {fileID: 11400000, guid: 7c00f7cd7f3c0b846962bcbd2cf0ba7e, type: 2}
+  dialogueEnglish: {fileID: 11400000, guid: b632e94ec0dca564b865336477974aa7, type: 2}
+  dialogueBR: {fileID: 11400000, guid: 27e77a721274446489465283f8546b7c, type: 2}
   YES_AwnserConsequences:
     ConsequenceStats:
     - Character: {fileID: 11400000, guid: d29e1ccc17afcfa41a6d9e51a89c4d64, type: 2}

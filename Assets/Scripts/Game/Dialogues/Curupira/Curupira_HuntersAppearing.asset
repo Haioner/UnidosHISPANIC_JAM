@@ -16,7 +16,9 @@ MonoBehaviour:
   FreeSouls_END: 0
   isTaxes: 0
   needAwnser: 1
-  dialogueTable: {fileID: 11400000, guid: 76d391cd5dfc1d14ba520da3cd6701fc, type: 2}
+  dialogueTable: {fileID: 11400000, guid: 7ef748e0dc4ef614c854c93533fddaa5, type: 2}
+  dialogueEnglish: {fileID: 11400000, guid: 47705519b21f5ad40bae579a204f71d5, type: 2}
+  dialogueBR: {fileID: 11400000, guid: 47705519b21f5ad40bae579a204f71d5, type: 2}
   YES_AwnserConsequences:
     ConsequenceStats:
     - Character: {fileID: 11400000, guid: 5d2a468c130a47a4d8d926b2eddc1f94, type: 2}

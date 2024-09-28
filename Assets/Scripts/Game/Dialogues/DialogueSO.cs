@@ -1,5 +1,5 @@
+using UnityEngine.Localization.Tables;
 using System.Collections.Generic;
-using UnityEditor.Localization;
 using UnityEngine;
 
 [System.Serializable]
@@ -24,7 +24,11 @@ public class DialogueSO : ScriptableObject
 
     [Header("Dialogue")]
     public bool needAwnser = true;
-    public StringTableCollection dialogueTable;
+#if UNITY_EDITOR
+    public UnityEditor.Localization.StringTableCollection dialogueTable;
+#endif
+    //public StringTable runtimeDialogueTable;
+    public StringTable dialogueEnglish, dialogueBR;
 
     [Header("Consequences")]
     public AwnserConsequence YES_AwnserConsequences;

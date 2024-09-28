@@ -52,7 +52,7 @@ public class DialogueManager : MonoBehaviour
 	private int currentDialogueCount;
 	public bool canDialogue = true;
 
-	private void Update()
+    private void Update()
 	{
 		if (!canDialogue) return;
 		StartDefaultDialogues();
@@ -192,19 +192,6 @@ public class DialogueManager : MonoBehaviour
 	public void UpdatePageText()
 	{
 		dialogueCountTEXT.text = pageLocale.GetLocalizedString() + " " + currentDialogueCount;
-	}
-
-	public void UpdateLocalizedDialogue()
-	{
-		currentDialogue.Clear();
-		currentDialogue.AddRange(GetCurrentLocalizedDialogue());
-
-		if (isTyping)
-		{
-			CompleteTyping();
-		}
-		else if (!isTyping && currentDialogueIndex > 0)
-			dialogueText.text = currentDialogue[currentDialogueIndex - 1];
 	}
 
 	public void NextDialogue()
@@ -450,55 +437,139 @@ public class DialogueManager : MonoBehaviour
 		}
 	}
 
-	private List<string> GetCurrentLocalizedDialogue()
+    #region Dialogue Localization
+    //private List<string> GetCurrentLocalizedDialogue()
+    //{
+    //	List<string> localizedStrings = new List<string>();
+    //	StringTable table = (StringTable)dialogueList[0].dialogueTable.GetTable(LocalizationSettings.SelectedLocale.Identifier);
+    //	foreach (var entry in table.SharedData.Entries)
+    //	{
+    //		if (!entry.Key.Contains("YES", System.StringComparison.OrdinalIgnoreCase) && !entry.Key.Contains("NO", System.StringComparison.OrdinalIgnoreCase))
+    //		{
+    //			StringTableEntry tableEntry = table.GetEntry(entry.Id);
+    //			string localizedString = tableEntry.GetLocalizedString();
+    //			localizedStrings.Add(localizedString);
+    //		}
+    //	}
+    //	return localizedStrings;
+    //}
+
+    //   private List<string> GetLocalized_YES_ConsequenceDialogue()
+    //{
+    //	List<string> localizedStrings = new List<string>();
+    //	StringTable table = (StringTable)dialogueList[0].dialogueTable.GetTable(LocalizationSettings.SelectedLocale.Identifier);
+    //	foreach (var entry in table.SharedData.Entries)
+    //	{
+    //		if (entry.Key.Contains("YES", System.StringComparison.OrdinalIgnoreCase))
+    //		{
+    //			StringTableEntry tableEntry = table.GetEntry(entry.Id);
+    //			string localizedString = tableEntry.GetLocalizedString();
+    //			localizedStrings.Add(localizedString);
+    //		}
+    //	}
+    //	return localizedStrings;
+    //}
+
+    //private List<string> GetLocalized_NO_ConsequenceDialogue()
+    //{
+    //	List<string> localizedStrings = new List<string>();
+    //	StringTable table = (StringTable)dialogueList[0].dialogueTable.GetTable(LocalizationSettings.SelectedLocale.Identifier);
+    //	foreach (var entry in table.SharedData.Entries)
+    //	{
+    //		if (entry.Key.Contains("NO", System.StringComparison.OrdinalIgnoreCase))
+    //		{
+    //			StringTableEntry tableEntry = table.GetEntry(entry.Id);
+    //			string localizedString = tableEntry.GetLocalizedString();
+    //			localizedStrings.Add(localizedString);
+    //		}
+    //	}
+    //	return localizedStrings;
+    //}
+
+	public bool IsEnglish()
 	{
-		List<string> localizedStrings = new List<string>();
-		StringTable table = (StringTable)dialogueList[0].dialogueTable.GetTable(LocalizationSettings.SelectedLocale.Identifier);
-		foreach (var entry in table.SharedData.Entries)
-		{
-			if (!entry.Key.Contains("YES", System.StringComparison.OrdinalIgnoreCase) && !entry.Key.Contains("NO", System.StringComparison.OrdinalIgnoreCase))
-			{
-				StringTableEntry tableEntry = table.GetEntry(entry.Id);
-				string localizedString = tableEntry.GetLocalizedString();
-				localizedStrings.Add(localizedString);
-			}
-		}
-		return localizedStrings;
+		if (LocalizationSettings.SelectedLocale.Identifier == "en")
+			return true;
+		else
+			return false;
 	}
 
-	private List<string> GetLocalized_YES_ConsequenceDialogue()
-	{
-		List<string> localizedStrings = new List<string>();
-		StringTable table = (StringTable)dialogueList[0].dialogueTable.GetTable(LocalizationSettings.SelectedLocale.Identifier);
-		foreach (var entry in table.SharedData.Entries)
-		{
-			if (entry.Key.Contains("YES", System.StringComparison.OrdinalIgnoreCase))
-			{
-				StringTableEntry tableEntry = table.GetEntry(entry.Id);
-				string localizedString = tableEntry.GetLocalizedString();
-				localizedStrings.Add(localizedString);
-			}
-		}
-		return localizedStrings;
-	}
+    public void UpdateLocalizedDialogue()
+    {
+        currentDialogue.Clear();
+        currentDialogue.AddRange(GetCurrentLocalizedDialogue());
 
-	private List<string> GetLocalized_NO_ConsequenceDialogue()
-	{
-		List<string> localizedStrings = new List<string>();
-		StringTable table = (StringTable)dialogueList[0].dialogueTable.GetTable(LocalizationSettings.SelectedLocale.Identifier);
-		foreach (var entry in table.SharedData.Entries)
-		{
-			if (entry.Key.Contains("NO", System.StringComparison.OrdinalIgnoreCase))
-			{
-				StringTableEntry tableEntry = table.GetEntry(entry.Id);
-				string localizedString = tableEntry.GetLocalizedString();
-				localizedStrings.Add(localizedString);
-			}
-		}
-		return localizedStrings;
-	}
+        if (isTyping)
+        {
+            CompleteTyping();
+        }
+        else if (!isTyping && currentDialogueIndex > 0)
+            dialogueText.text = currentDialogue[currentDialogueIndex - 1];
+    }
 
-	private string GetCurrentDialogueLine()
+    private List<string> GetCurrentLocalizedDialogue()
+    {
+        List<string> localizedStrings = new List<string>();
+        StringTable table = IsEnglish() ? dialogueList[0].dialogueEnglish : dialogueList[0].dialogueBR;
+        foreach (var entry in table.SharedData.Entries)
+        {
+            if (!entry.Key.Contains("YES", System.StringComparison.OrdinalIgnoreCase) &&
+                !entry.Key.Contains("NO", System.StringComparison.OrdinalIgnoreCase))
+            {
+                StringTableEntry tableEntry = table.GetEntry(entry.Id);
+                if (tableEntry != null)
+                {
+                    localizedStrings.Add(tableEntry.LocalizedValue);
+                }
+            }
+        }
+
+        return localizedStrings;
+    }
+
+    private List<string> GetLocalized_YES_ConsequenceDialogue()
+    {
+        List<string> localizedStrings = new List<string>();
+        StringTable table = IsEnglish() ? dialogueList[0].dialogueEnglish : dialogueList[0].dialogueBR;
+
+        foreach (var entry in table.SharedData.Entries)
+        {
+            if (entry.Key.Contains("YES", System.StringComparison.OrdinalIgnoreCase))
+            {
+                StringTableEntry tableEntry = table.GetEntry(entry.Id);
+                if (tableEntry != null)
+                {
+                    localizedStrings.Add(tableEntry.LocalizedValue);
+                }
+            }
+        }
+
+        return localizedStrings;
+    }
+
+    private List<string> GetLocalized_NO_ConsequenceDialogue()
+    {
+        List<string> localizedStrings = new List<string>();
+        StringTable table = IsEnglish() ? dialogueList[0].dialogueEnglish : dialogueList[0].dialogueBR;
+
+        foreach (var entry in table.SharedData.Entries)
+        {
+            if (entry.Key.Contains("NO", System.StringComparison.OrdinalIgnoreCase))
+            {
+                StringTableEntry tableEntry = table.GetEntry(entry.Id);
+                if (tableEntry != null)
+                {
+                    localizedStrings.Add(tableEntry.LocalizedValue);
+                }
+            }
+        }
+
+        return localizedStrings;
+    }
+
+    #endregion
+
+    private string GetCurrentDialogueLine()
 	{
 		return currentDialogue[currentDialogueIndex];
 	}

@@ -17,12 +17,9 @@ MonoBehaviour:
   isTaxes: 0
   needAwnser: 1
   dialogueTable: {fileID: 11400000, guid: cd2ef902abbf2fc45b24fad8f344f5e3, type: 2}
-  dialogue:
-  - My name echoes through rivers and lakes, but they are starting to forget my story...
-  - Bring more attention to my suffering, and I will bring more souls to you. We
-    both win.
+  dialogueEnglish: {fileID: 11400000, guid: ba0c158351ec41e4ea7368fc25c42c43, type: 2}
+  dialogueBR: {fileID: 11400000, guid: 8217efe636aad204ea456fa29b39c830, type: 2}
   YES_AwnserConsequences:
-    DialogueAfterAwnser: []
     ConsequenceStats:
     - Character: {fileID: 11400000, guid: 21323606d7021004ba968e5aaa861f69, type: 2}
       Power: 0
@@ -32,7 +29,6 @@ MonoBehaviour:
     SoulsAmount: -100000
     ConsequenceEffector: []
   NO_AwnserConsequences:
-    DialogueAfterAwnser: []
     ConsequenceStats: []
     ConsequenceDialogues: []
     SoulsAmount: 0
