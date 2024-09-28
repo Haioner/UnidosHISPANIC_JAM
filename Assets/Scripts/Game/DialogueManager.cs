@@ -52,6 +52,11 @@ public class DialogueManager : MonoBehaviour
 	private int currentDialogueCount;
 	public bool canDialogue = true;
 
+    private void Start()
+    {
+		UpdateLocalizedDialogue();
+    }
+
     private void Update()
 	{
 		if (!canDialogue) return;

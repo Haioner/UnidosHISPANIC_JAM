@@ -1,10 +1,10 @@
-using System.Collections;
-using TMPro;
-using UnityEngine;
+using UnityEngine.Localization.Settings;
 using UnityEngine.EventSystems;
 using UnityEngine.Localization;
-using UnityEngine.Localization.Settings;
+using System.Collections;
 using UnityEngine.UI;
+using UnityEngine;
+using TMPro;
 
 public class ChangeLanguage : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
@@ -12,13 +12,16 @@ public class ChangeLanguage : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     [SerializeField] private TextMeshProUGUI languageTEXT;
     [SerializeField] private DialogueManager dialogueManager;
     private ToolTipManager toolTipManager;
+    private string languageName;
 
     private void Awake()
     {
         toolTipManager = FindFirstObjectByType<ToolTipManager>();
+    }
 
-        string languageName = LocalizationSettings.SelectedLocale.Identifier.Code;
-        languageTEXT.text = languageName;
+    private void Start()
+    {
+        languageTEXT.text = LocalizationSettings.SelectedLocale.Identifier.Code;
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -51,7 +54,7 @@ public class ChangeLanguage : MonoBehaviour, IPointerEnterHandler, IPointerExitH
         GetComponent<Image>().raycastTarget = true;
         GetComponentInChildren<TextMeshProUGUI>().raycastTarget = true;
 
-        string languageName = LocalizationSettings.SelectedLocale.Identifier.Code;
+        languageName = LocalizationSettings.SelectedLocale.Identifier.Code;
         languageTEXT.text = languageName;
 
         UpdateToolTip();
@@ -59,8 +62,12 @@ public class ChangeLanguage : MonoBehaviour, IPointerEnterHandler, IPointerExitH
         dialogueManager.UpdateLocalizedDialogue();
     }
 
-    private void UpdateToolTip()
+    public void UpdateToolTip()
     {
-        toolTipManager.SetToolTip(tooltipLocale.GetLocalizedString());
+        tooltipLocale.StringChanged += (localizedText) =>
+        {
+            languageName = localizedText;
+            toolTipManager.SetToolTip(languageName);
+        };
     }
 }
