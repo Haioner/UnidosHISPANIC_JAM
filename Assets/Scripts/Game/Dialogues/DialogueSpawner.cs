@@ -86,6 +86,8 @@ public class DialogueSpawner : MonoBehaviour
 
 	private void AddCharacterDialogue(CharacterPriority characterPriority)
 	{
+		if (legendsManager.GetSoulsAmount() < 100000) return;
+
 		bool isRegistred = legendsManager.LegendIsRegistred(characterPriority.characterSO);
 
 		if (isRegistred)

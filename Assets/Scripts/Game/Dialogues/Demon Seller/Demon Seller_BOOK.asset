@@ -22,7 +22,7 @@ MonoBehaviour:
   YES_AwnserConsequences:
     ConsequenceStats: []
     ConsequenceDialogues: []
-    SoulsAmount: -10000
+    SoulsAmount: -100
     ConsequenceEffector:
     - {fileID: 3084465730414769644, guid: 5aa7042ca4d8d69419a0d399509eebea, type: 3}
   NO_AwnserConsequences:

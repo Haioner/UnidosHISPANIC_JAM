@@ -18,7 +18,7 @@ MonoBehaviour:
   needAwnser: 1
   dialogueTable: {fileID: 11400000, guid: f4a6fe84171038b4aa002107db904779, type: 2}
   dialogueEnglish: {fileID: 11400000, guid: dd5bb80fca34d1b4eb0ece4fedad6584, type: 2}
-  dialogueBR: {fileID: 11400000, guid: dd5bb80fca34d1b4eb0ece4fedad6584, type: 2}
+  dialogueBR: {fileID: 11400000, guid: 53b70a228f124fd4baabaf3757e1c74a, type: 2}
   YES_AwnserConsequences:
     ConsequenceStats:
     - Character: {fileID: 11400000, guid: 6e75cd3fc697b71409f6bdeb545fff8f, type: 2}
